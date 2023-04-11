@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  
+  
+  
+  
+  * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  } /* This is used to fix an specific width even when you add padding */
+  
+  .addPost {
+  font-family: sans-serif;
+  font-size: 27px;
+  font-weight: 900;
+  color: #2e3641;
+  margin: 0 0 10px 0;
+  }
+  h2 {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0;
+  padding: 15px 0 0 20px;
+  }
+  a {
+  text-decoration: none;
+  color: #9eb2c0;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  p {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #9eb2c0;
+  margin: 15px 0 5px 20px;
+  }
+  /*Tira as marcações da lista (aquelas bolinhas que fica quando criamos uma tabela*/
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  /*as barras do adicionar post */
+  .bar {
+  background-color: #050607;
+  text-align: center;
+  }
+  
+  
+  /*Butãu*/
+  .btn {
+  display: inline-block;
+  line-height: 35px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #f97e76;
+  color: #ffffff;
+  text-align: center;
+  }
+  /*Animação do butãum quando você passa por cima */
+  .btn:hover {
+    text-decoration: none;
+    background: #000000;
+  }
+  
+  
+  
+  #left-container {
+    width: 570px;
+    float: left;
+  }
+    #newPost {
+      height: 675px;
+      box-shadow: rgba(0,0,0,5.2) 10px 10px 10px;
+      background: white;
+    }
+      .side {
+        width: 90px;
+        height: 675px;
+        float: left;	
+      }
+      			
+        
+      .newPostContent {
+        width: 480px;
+        float: right;
+        padding-left: 40px;
+        padding-top: 70px;
+              
+      }
+        #post-title {
+          width: 400px;
+          height: 45px;
+          margin:0 0 20px 0;
+          padding-left: 15px;
+          font-size: 22px;
+          font-weight: bold;
+        }					
+        .format-bar {
+          height: 32px;
+          width: 400px;
+        }
+                    
+        
+    
+        .newPostContent .btn {
+          width: 120px;
+          line-height: 45px;
+        }
+          
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    background: #dfdfdf;
+  }
