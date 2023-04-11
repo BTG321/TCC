@@ -152,33 +152,205 @@ a#btn3 {
     transform: translate(850px, -26px);
 }
 
-/* Configurações do switch */
+/* Configurações das opções laterais */
 
-div#switch {
-    background-color: var(--color5);
-    width: 450px;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 3px;
-    border-radius: 12px;
-    border: 1px solid black;
-    transform: translate(440px, 50px);
-}
-
-div#switch a {
-    text-decoration: none;
-    text-align: center;
-    color: var(--color6);
-}
-
-div#switch a:hover {
-    color: var(--color3);
-    border-radius: 12px;
-    transition: 0.5s;
-}
 
 #select {
-    background-color: var(--color2);
-    color: var(--color6);
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 24%;
+    left: 7.5%;
+}
+
+#select:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+#opcao2 {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    top: 42%;
+    left: 3%;
+    text-shadow: 1px 1px 4px black;
+}
+
+#opcao2:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    text-shadow: none;
+}
+
+#opcao3 {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    top: 61%;
+    left: 6.9%;
+    text-shadow: 1px 1px 4px black;
+}
+
+#opcao3:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    text-shadow: none;
+}
+
+#titulo {
+    position: absolute;
+    top: 37%;
+    left: 41%;
+    color: white;
+}
+
+/* Configurações de div */
+
+div#r1 {
+    background-color: #3d3939;
+    width: 21em;
+    height: 37.5em;
+}
+
+div#r2 {
+    background-color: #3d3939;
+    width: 23em;
+    height: 37.5em;
+    position: absolute;
+    top: 8.5%;
+    left: 73%;
+}
+
+/* Configurações do Formulário */
+
+div#formulario{
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    width: 500px;
+}
+
+input[type=submit]{
+    background: none;
+    border: 2px solid var(--color3);
+    color: var(--color3);
+    padding: 8px;
+    transform: translateX(65px);
+}
+
+input[type=submit]:hover {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.659);
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 260px;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+   top: -20px;
+   font-size: 12px;
+   color: var(--color3);
+}
+
+label {
+    color: white;
+}
+
+#ajuste1 {
+    /*transform: translateY(101px);*/
+}
+#ajuste2 {
+    transform: translateY(47px);
+}
+
+#ajuste3 {
+    transform: translateY(96px);
+}
+#ajuste4 {
+    transform: translateY(144px);
+}
+
+/* Configurações de Imagem */
+
+img#foto_user {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -3%;
+    left: 63%;
+}
+
+#fundo {
+    width: 100%;
+    height: 36%;
+}
+
+#foto {
+    width: 100px;
+    left: 100px;
+    background-color: #3d3939;
+    padding: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 27%;
+    left: 12%;
+}
+
+/* Configurações do centro */
+
+input[type=file] {
+    display: none;
+}
+
+#labelimg {
+    cursor: pointer;
+    background-color: rgb(33, 33, 207);
+    color: white;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border-radius: 12px;
+    position: absolute;  
+    top: 54%;
+    left: 95%;
+}
+
+#imgfundo {
+    cursor: pointer;
+    background-color: #3F3498;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 125%;
+    left: 16%;
 }
