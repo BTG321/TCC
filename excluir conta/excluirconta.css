@@ -95,33 +95,3 @@ body {
     color: var(--color3);
 }
 
-/* Configurações do switch */
-
-div#switch {
-    background-color: var(--color5);
-    width: 450px;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 3px;
-    border-radius: 12px;
-    border: 1px solid black;
-    transform: translate(440px, 50px);
-}
-
-div#switch a {
-    text-decoration: none;
-    text-align: center;
-    color: var(--color6);
-}
-
-div#switch a:hover {
-    color: var(--color3);
-    border-radius: 12px;
-    transition: 0.5s;
-}
-
-#select {
-    background-color: var(--color2);
-    color: var(--color6);
-    border-radius: 12px;
-}

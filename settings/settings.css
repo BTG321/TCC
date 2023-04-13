@@ -13,6 +13,7 @@
     --color4: black;
     --color5: #222020;
     --color6: white;
+    --color7: #3d3939;
 }
 
 body {
@@ -109,21 +110,6 @@ img#logo {
     transform: translate(1148px, 120px);
 }
 
-/* Configurações de título */
-
-h1#titulo1{
-    color: var(--color6);
-    transform: translate(500px, 115px);
-    width: 500px;
-}
-
-h4#titulo2 {
-    color: darkgray;
-    text-align: center;
-    width: 300px;
-    transform: translate(42.7em, 6em);
-}
-
 /* Configurações de botões */ 
 
 a#btn {
@@ -157,7 +143,7 @@ a#btn3 {
 
 #select {
     background-color: rgb(24, 24, 24);
-    color: white;
+    color: var(--color6);
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -168,26 +154,26 @@ a#btn3 {
 }
 
 #select:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--color6);
+    color: var(--color4);
     transition: 0.4s;
 }
 
 #opcao2 {
     font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: var(--color6);
     font-weight: bold;
     padding: 10px;
     position: absolute;
     top: 42%;
     left: 3%;
-    text-shadow: 1px 1px 4px black;
+    text-shadow: 1px 1px 4px var(--color4);
 }
 
 #opcao2:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--color6);
+    color: var(--color4);
     transition: 0.4s;
     text-shadow: none;
 }
@@ -195,18 +181,18 @@ a#btn3 {
 #opcao3 {
     font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: var(--color6);
     font-weight: bold;
     padding: 10px;
     position: absolute;
     top: 61%;
     left: 6.9%;
-    text-shadow: 1px 1px 4px black;
+    text-shadow: 1px 1px 4px var(--color4);
 }
 
 #opcao3:hover {
     background-color: white;
-    color: black;
+    color: var(--color4);
     transition: 0.4s;
     text-shadow: none;
 }
@@ -215,19 +201,19 @@ a#btn3 {
     position: absolute;
     top: 37%;
     left: 41%;
-    color: white;
+    color: var(--color6);
 }
 
 /* Configurações de div */
 
-div#r1 {
-    background-color: #3d3939;
+div#left {
+    background-color: var(--color7);
     width: 21em;
     height: 37.5em;
 }
 
-div#r2 {
-    background-color: #3d3939;
+div#right {
+    background-color: var(--color7);
     width: 23em;
     height: 37.5em;
     position: absolute;
@@ -259,9 +245,9 @@ input[type=submit]:hover {
 .inputUser {
     background: none;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--color6);
     outline: none;
-    color: white;
+    color: var(--color6);
     font-size: 15px;
     width: 260px;
     letter-spacing: 2px;
@@ -283,7 +269,7 @@ input[type=submit]:hover {
 }
 
 label {
-    color: white;
+    color: var(--color6);
 }
 
 #ajuste1 {
@@ -318,7 +304,7 @@ img#foto_user {
 #foto {
     width: 100px;
     left: 100px;
-    background-color: #3d3939;
+    background-color: var(--color7);
     padding: 3px;
     border-radius: 50%;
     position: absolute;
@@ -335,7 +321,7 @@ input[type=file] {
 #labelimg {
     cursor: pointer;
     background-color: rgb(33, 33, 207);
-    color: white;
+    color: var(--color6);
     padding: 10px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -347,7 +333,7 @@ input[type=file] {
 
 #imgfundo {
     cursor: pointer;
-    background-color: #3F3498;
+    background-color: var(--color2);
     padding: 10px;
     border-radius: 20px;
     position: absolute;
