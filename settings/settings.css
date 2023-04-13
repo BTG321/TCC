@@ -110,6 +110,7 @@ img#logo {
     transform: translate(1148px, 120px);
 }
 
+
 /* Configurações de botões */ 
 
 a#btn {
@@ -219,6 +220,7 @@ div#right {
     position: absolute;
     top: 8.5%;
     left: 73%;
+    z-index: -1;
 }
 
 /* Configurações do Formulário */
@@ -235,7 +237,7 @@ input[type=submit]{
     border: 2px solid var(--color3);
     color: var(--color3);
     padding: 8px;
-    transform: translateX(65px);
+    transform: translate(45em, 30%);
 }
 
 input[type=submit]:hover {
