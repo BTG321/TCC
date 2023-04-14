@@ -95,33 +95,104 @@ body {
     color: var(--color3);
 }
 
-/* Configurações do switch */
+/* Configurações de Imagem */
 
-div#switch {
-    background-color: var(--color5);
-    width: 450px;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 3px;
-    border-radius: 12px;
-    border: 1px solid black;
-    transform: translate(440px, 50px);
+img#user {
+    width: 200px;
+    height: 200px;
+    transform: translate(565px, 100px);
 }
 
-div#switch a {
-    text-decoration: none;
+img#logo {
+    width: 54px;
+    height: 46px;
+    transform: translate(1148px, 120px);
+}
+
+/* Configurações de título */
+
+h1#titulo1{
+    color: var(--color6);
+    transform: translate(500px, 115px);
+    width: 500px;
+}
+
+h4#titulo2 {
+    color: darkgray;
     text-align: center;
-    color: var(--color6);
+    width: 300px;
+    transform: translate(42.7em, 6em);
 }
 
-div#switch a:hover {
-    color: var(--color3);
-    border-radius: 12px;
-    transition: 0.5s;
+/* Configurações de botões */ 
+
+a#btn {
+    transform: translate(158px, 152px);
 }
 
-#select {
-    background-color: var(--color2);
+a#btn2 {
+    padding: 10px;
+    text-decoration: none;
     color: var(--color6);
-    border-radius: 12px;
+    background-color: var(--color4);
+    border-radius: 16px;
+    position: absolute;
+    top: 44%;
+    left: 42%;
 }
+
+a#btn2:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.439);
+    transition: .1s;
+}
+
+a#btn3 {
+    padding: 10px;
+    border-radius: 16px;
+    transform: translate(850px, -26px);
+}
+
+/* Configurações das opções laterais */
+
+
+
+
+/*Banner*/
+.banner{
+    width: 100%;
+    height: 450px;
+    position: relative;
+ }
+/*Banner*/
+
+.profile{
+    z-index: 900;
+      background: #0f0f0f;
+      margin-top: -5px;
+      padding: 40px;
+      width: 100%;
+      box-shadow: 0 px 25px rgba(0, 0, 0, 0.297);
+  }
+  
+  /*logoempresa*/
+  .logoempresa {
+ 
+    width: 8%;
+    margin-top: -6%;
+    border-radius: 50%;
+    border: .5em solid #0f0f0f ;
+    background-color: #0c0c0d;
+    z-index: 1000;
+    position: absolute;
+  }
+  /*logoempresa*/
+  
+  
+  .profile h1{
+  text-align: center;
+  color: #ffffff;
+  
+  }
+
+  
+ 
