@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
     <script src="excluirconta.js"></script>
     <link rel="stylesheet" href="../excluir conta/excluirconta.css">
     <title>Beyond The Game</title>
@@ -39,19 +39,19 @@
     </div>
     <main>
         <div id="left">
-            <a href="settings.html" id="select">Editar Perfil</a>
+            <a href="../settings/settings.html" id="select">Editar Perfil</a>
             <a href="../security/security.html" id="opcao2">Privacidade e Segurança</a>
             <a href="../excluir conta/excluirconta.html" id="opcao3">Excluir Conta</a>
         </div>
         <div class="box">
-            <h1>Deseja excluir sua conta?</h1>
-            <button id="btn1">SIM</button>
-            <button id="btn2">NÃO</button>
+            <h1 id="titulo1">Deseja excluir sua conta?</h1>
+            <button id="btn1" onclick="clicar()">SIM</button>
+            <button id="btn2" onclick="redirecionar()">NÃO</button>
         </div>
         <div class="aviso">
-            <h1>Tem certeza dessa ação?</h1>
+            <h1 id="titulo2">Tem certeza dessa ação?</h1>
             <button id="btn3">Sim, eu tenho certeza</button>
-            <button id="btn4">Não, cancelar ação</button>
+            <button id="btn4" onclick="cancelar()">Não, cancelar ação</button>
         </div>
     </main>
 </body>

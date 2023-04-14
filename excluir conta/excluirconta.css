@@ -111,24 +111,26 @@ div.box {
 }
 
 div.aviso {
-    background-color:  orange;
-    margin: 10% 20%;
+    background-color:  rgba(255, 166, 0, 0.748);
+    margin: -43% 32.9%;
     width: 400px;
     text-align: center;
     padding: 30px;
+    display: none;
 }
 
 div#left {
     background-color: #00000070;
     width: 12.5%;
-    height: 686px;
+    height: 37.5em;
     margin-left: -0.1%;
-    box-shadow: 0 px 25px rgba(0, 0, 0, 0.397);
+    box-shadow: 0px 25px rgba(0, 0, 0, 0.397);
 }
 
-h1 {
+h1#titulo1 {
     color: var(--color6);
     text-shadow: 1px 1px 5px black;
+    transform: translateX(15px);
 }
 
 /* Configurações das opções laterais */
@@ -208,7 +210,7 @@ h1 {
 }
 
 #btn1 {
-    transform: translateX(70px);
+    transform: translateX(90px);
     width: 100px;
 }
 
@@ -219,7 +221,7 @@ h1 {
 
 #btn2 {
     width: 100px;
-    transform: translateX(70px);
+    transform: translateX(120px);
 }
 
 #btn2:hover {
