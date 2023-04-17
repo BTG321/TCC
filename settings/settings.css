@@ -479,6 +479,7 @@ html {
    position: relative;
    margin-top: -24%;
    margin-left: 10%;
+   z-index: -1;
   }
 
   .imagemdobanner{
@@ -487,8 +488,29 @@ html {
     height: 30%;
     width: 100%;
     border-radius: 3%;
-    
+    z-index: -1;
+  }
 
+  input[type=file] {
+    display: none;
+  }
+
+  #file {
+    color: white;
+    background-color: blue;
+    padding: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    transform: translate(390px, -200px);
+  }
+
+  #file2 {
+    color: white;
+    background-color: blue;
+    padding: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    transform: translate(-30px, -75px);
   }
 
   .novasenha{
@@ -501,12 +523,10 @@ html {
   .novousuario{
     position: relative;
     z-index: 90;
-    margin-top: -31%;
+    margin-top: -36%;
     color: white;
     font-size: 200%;
-    margin-left: 33%;
-
-
+    margin-left: 40%;
   }
 
 

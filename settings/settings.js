@@ -35,4 +35,33 @@ input.addEventListener("input", () => {
   output.innerHTML = input.value;
 });
 
+const inputFile = document.getElementById('inputFile');
+const imagePreview = document.querySelector('.imagemdobanner');
+
+inputFile.addEventListener('change', function() {
+  const file = this.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.addEventListener('load', function() {
+      imagePreview.src = reader.result;
+    });
+    reader.readAsDataURL(file);
+  }
+});
+
+const inputFile2 = document.getElementById('inputFile2');
+const imagePreview2 = document.querySelector('.imagemdaempresa');
+
+inputFile2.addEventListener('change', function() {
+  const file = this.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.addEventListener('load', function() {
+      imagePreview2.src = reader.result;
+    });
+    reader.readAsDataURL(file);
+  }
+});
+
+
 
