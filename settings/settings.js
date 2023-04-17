@@ -27,3 +27,12 @@ window.addEventListener('resize', function(event) {
         toogleSidebar();
     }
 });
+
+const input = document.getElementById("campo2");
+const output = document.querySelector(".novousuario");
+
+input.addEventListener("input", () => {
+  output.innerHTML = input.value;
+});
+
+
