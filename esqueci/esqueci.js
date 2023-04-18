@@ -9,3 +9,12 @@ btn.addEventListener('click', function() {
         container.style.visibility = 'visible';
     }
 });
+
+
+
+//const btn = document.querySelector('#show-or-hide');
+//const container = document.querySelector('.container')
+
+//btn.addEventListener('click', () => {
+  //  container.style.display = 'block'/
+//})

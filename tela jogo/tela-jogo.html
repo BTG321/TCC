@@ -1,18 +1,18 @@
-<!--atualizado-->
+<!--atualizado aguardando termino -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="home-add.css">
-    <script src="home.js"> </script>
-
+    <script src="../tela jogo/tela-jogo.js"></script>
+    <link rel="stylesheet" href="../tela jogo/tela-jogo.css">
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
+    <title>Beyond The Game</title>
 </head>
 <body>
-     <!--Navbar-->
-     <div class="header" id="header">
+    <!--Navbar-->
+    <div class="header" id="header">
         <button class="btn_icon_header" onclick="toggleSidebar()">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -27,7 +27,7 @@
                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                   </svg>
             </button>
-            <a href="#">Home</a>
+            <a href="../home/home-bibliotea.html">Home</a>
             <a href="../settings/settings.html" >Configurações</a>
             <a href="../login/login.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
@@ -38,35 +38,13 @@
         </div>
     </div>
     <!--Navbar-->
-   <main>
-    <img class="banner" src="../imagens/bannerriot.jpeg">
-    
-    
-    <div class="profile">
-          <img class="logoempresa" src="../imagens/logoriot.jpeg">
-          
-          <div class="nome-empresa"> 
-            <h2>Riot Games</h2>
+    <main>
+        <div class="titulo">
+            <div class="user-box" id>
+              <input type="text" name="" required="" id="">
+              <label id="campo1">Nome do Jogo</label>
+            </div>
           </div>
-
-          <div class="seguidores">
-            <p>100k Seguidores</p>
-          </div>
-
-          <div class="navegacao">
-           <div class="biblioteca"><a href="home-bibliotea.html">Biblioteca</a></div>
-           <div class="add-jogo"><p>Adicionar Jogo</p></div>
-           <hr class="hr1">
-          </div>
-    </div>
-
-<div class="titulo">
-    <div class="user-box" id>
-      <input type="text" name="" required="" id="">
-      <label id="campo1">Nome do Jogo</label>
-    </div>
-  </div>
-
         <div class="slider">
 
             <div class="slides">
@@ -79,7 +57,7 @@
 
                 <!--Slides images-->
                 <div class="slide first">
-                    <img src="../imagens/imgvava4.jpg" alt="img1">
+                    <img src="../imagens/imgvava1.png" alt="img1">
                 </div>
                 <div class="slide">
                     <img src="../imagens/imgvava2.png" alt="img2">
@@ -88,7 +66,7 @@
                     <img src="../imagens/imgvava3.png" alt="img3">
                 </div>
                 <div class="slide">
-                    <img src="../imagens/imgvava1.png" alt="img4">
+                    <img src="../imagens/imgvava4.jpg" alt="img4">
                 </div>
                 <!--Fim Slides images-->
 
@@ -109,35 +87,34 @@
             </div>
         </div>
 
-         <!--alterações-->
+        <div class="atributos">
 
-         <div class="atributos">
-
-          <div class="user-box" id>
-            <input type="number" name="" required="" id="campo2">
-            <label>Preço do Jogo</label>
+            <div class="user-box" id>
+              <input type="number" name="" required="" id="campo2">
+              <label>Preço do Jogo</label>
+            </div>
+           
+            <div class="user-box" id>
+              <input type="number" name="" required="" id="campo3">
+              <label>Classificação</label>
+            </div>
+  
+            
+  
+            <button class="custom-btn btn-15">Salvar</button>
+            
+  
+           </div>
+           <div class="descricao">
+  
+           <div class="user-box" id>
+              <input type="text" name="" required="" id="campo2">
+              <label>Descrição</label>
+            </div>
+  
           </div>
          
-          <div class="user-box" id>
-            <input type="number" name="" required="" id="campo3">
-            <label>Classificação</label>
-          </div>
-
-          
-
-          <button class="custom-btn btn-15">Salvar</button>
-          
-
-         </div>
-         <div class="descricao">
-
-         <div class="user-box" id>
-            <input type="text" name="" required="" id="campo2">
-            <label>Descrição</label>
-          </div>
-
-        </div>
-
-   </main>
+       
+    </main>
 </body>
 </html>

@@ -13,6 +13,7 @@
     --color4: black;
     --color5: #222020;
     --color6: white;
+    --color7: #3d3939;
 }
 
 body {
@@ -37,16 +38,12 @@ body {
     align-items: center;
 }
 
-
 .header {
     background-color: var(--color4);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.538);
     height: 3.5em;
     justify-content: space-between;
     padding: 0 10%;
-    position: fixed;
-    z-index: 10000;
-    width: 80%;
 }
 
 .navigation_header {
@@ -99,138 +96,17 @@ body {
     color: var(--color3);
 }
 
-/* Configurações de Imagem */
+/* Configurações de titulo */
 
-img#user {
-    width: 200px;
-    height: 200px;
-    transform: translate(565px, 100px);
-}
-
-img#logo {
-    width: 54px;
-    height: 46px;
-    transform: translate(1148px, 120px);
-}
-
-/* Configurações de título */
-
-h1#titulo1{
+h1{
     color: var(--color6);
-    transform: translate(500px, 115px);
-    width: 500px;
-}
-
-h4#titulo2 {
-    color: darkgray;
-    text-align: center;
-    width: 300px;
-    transform: translate(42.7em, 6em);
-}
-
-/* Configurações de botões */ 
-
-a#btn {
-    transform: translate(158px, 152px);
-}
-
-a#btn2 {
-    padding: 10px;
-    text-decoration: none;
-    color: var(--color6);
-    background-color: var(--color4);
-    border-radius: 16px;
     position: absolute;
-    top: 44%;
-    left: 42%;
+    top: 18%;
+    left: 10%;
 }
 
-a#btn2:hover {
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.439);
-    transition: .1s;
-}
+/* Configurações de imagem */
 
-a#btn3 {
-    padding: 10px;
-    border-radius: 16px;
-    transform: translate(850px, -26px);
-}
-
-
-
-
-
-
-/*Banner*/
-.banner{
-    width: 100%;
-    height: 450px;
-    position: relative;
- }
-
-
-.profile{
-    z-index: 900;
-      background: #0f0f0f;
-      margin-top: -5px;
-      padding: 60px;
-      width: 92%;
-      box-shadow: 0 px 25px rgba(0, 0, 0, 0.297);
-  }
-  
-  /*logoempresa*/
-  .logoempresa {
- 
-    width: 8%;
-    margin-left: 7%;
-    margin-top: -7%;
-    border-radius: 50%;
-    border: .5em solid #0f0f0f ;
-    background-color: #0c0c0d;
-    z-index: 1000;
-    position: absolute;
-  }
-  /*logoempresa*/
- .nome-empresa{
-   margin-top: -2%;
-   margin-left: 20%;
-   color: white;
-  }
-/*numero de seguidores*/
-  .seguidores {
-    color: white;
-    margin-left: 20%;
-    font-size: 14px;
-  }
- 
-  .biblioteca {
-    color: white;
-    margin-top: 5%;
-    margin-left: 25%;
-  }
-
-  .add-jogo  {
-    color: white;
-    margin-top: -1%;
-    margin-left: 65%;
-    text-decoration: none;
-  }
- 
-  .hr1 {
-    border: 0;
-    border-top: 1px solid #CCC;
-    margin-top: 1%;
-  }
-
-  a{
-    text-decoration: none;
-    color: var(--color6);
-    padding: 10px;
-  
-}
-
-
-/* imagens do jogo */
 img#img-game{
     width: 600px;
     position: absolute;
@@ -398,8 +274,7 @@ h1{
 
 
 .titulo{
-   margin-top: 3%;  
-   margin-left: 13%;
+  margin-top: ;
    position: absolute;
    
 }
