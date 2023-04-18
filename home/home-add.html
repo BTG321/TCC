@@ -41,7 +41,6 @@
    <main>
     <img class="banner" src="../imagens/bannerriot.jpeg">
     
-    
     <div class="profile">
           <img class="logoempresa" src="../imagens/logoriot.jpeg">
           
@@ -61,9 +60,10 @@
     </div>
 
 <div class="titulo">
+  <form action="" method="post">
     <div class="user-box" id>
       <input type="text" name="" required="" id="">
-      <label id="campo1">Nome do Jogo</label>
+      <label id="campo1" class="texto">Nome do Jogo</label>
     </div>
   </div>
 
@@ -113,31 +113,53 @@
 
          <div class="atributos">
 
-          <div class="user-box" id>
+          <div class="user-box">
             <input type="number" name="" required="" id="campo2">
-            <label>Preço do Jogo</label>
+            <label class="texto">Preço do Jogo</label>
           </div>
          
-          <div class="user-box" id>
-            <input type="number" name="" required="" id="campo3">
-            <label>Classificação</label>
+          <div class="user-box">
+            <label for="faixalivre" id="class">Classificação:</label>
+            <div class="radio-group">
+              <label>
+                <input type="radio" name="radio" value="LIVRE" id="faixalivre" checked>
+                <img src="../imagens/faixa-etaria1.png" alt="faixa etaria">
+              </label>
+              <label>
+                <input type="radio" name="radio" value="10 anos">
+                <img src="../imagens/faixa-etaria2.png" alt="faixa etaria">
+              </label>
+              <label>
+                <input type="radio" name="radio" value="12 anos">
+                <img src="../imagens/faixa-etaria3.png" alt="faixa etaria">
+              </label><br>
+              <label>
+                <input type="radio" name="radio" value="14 anos">
+                <img src="../imagens/faixa-etaria4.png" alt="faixa etaria">
+              </label>
+              <label>
+                <input type="radio" name="radio" value="16 anos">
+                <img src="../imagens/faixa-etaria5.png" alt="faixa etaria">
+              </label>
+              <label>
+                <input type="radio" name="radio" value="18 anos">
+                <img src="../imagens/faixa-etaria6.png" alt="faixa etaria">
+              </label>
+            </div>
           </div>
-
-          
 
           <button class="custom-btn btn-15">Salvar</button>
           
-
          </div>
          <div class="descricao">
 
          <div class="user-box" id>
             <input type="text" name="" required="" id="campo2">
-            <label>Descrição</label>
+            <label class="texto">Descrição</label>
           </div>
 
         </div>
-
+      </form>
    </main>
 </body>
 </html>

@@ -369,7 +369,7 @@ h1{
     outline: none;
     background: transparent;
   }
-   .user-box label {
+   .user-box .texto {
     position: absolute;
     top:0;
     left: 0;
@@ -380,8 +380,8 @@ h1{
     transition: .5s;
   }
   
-   .user-box input:focus ~ label,
-   .user-box input:valid ~ label {
+   .user-box input:focus ~ .texto,
+   .user-box input:valid ~ .texto {
     top: -20px;
     left: 0;
     color: rgb(175, 3, 175);
@@ -415,6 +415,32 @@ p{
     margin-left: 15%;
 }
 
+.radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .radio-group input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-group label img {
+    border: 3px solid transparent;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    width: 40px;
+    margin-top: 10px;
+  }
+  
+  .radio-group input[type="radio"]:checked + img {
+    border-color: #1E90FF;
+  }
+  
+  #class {
+    color: var(--color6);
+    font-size: 25px;
+  }
 
 /* 15 */
 
@@ -425,6 +451,7 @@ p{
   }
   button {
     margin: 20px;
+    transform: translate(-30px, 60px);
   }
   .custom-btn {
     margin-left: 30%;

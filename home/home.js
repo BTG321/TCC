@@ -27,3 +27,15 @@ window.addEventListener('resize', function(event) {
         toogleSidebar();
     }
 });
+
+const radios = document.querySelectorAll('input[name="radio"]');
+
+radios.forEach((radio) => {
+  radio.addEventListener("change", function() {
+    const selected = document.querySelector('input[name="radio"]:checked + img');
+    const unselected = document.querySelector('input[name="radio"]:not(:checked) + img');
+    
+    selected.style.borderColor = "#1E90FF";
+    unselected.style.borderColor = "#ccc";
+  });
+});
