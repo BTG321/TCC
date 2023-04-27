@@ -6,6 +6,7 @@ body {
   padding:0;
   font-family: sans-serif;
   background: linear-gradient(#0d0514, #4a1e76);
+  text-decoration: none;
 }
   
   .login-box {
@@ -39,7 +40,7 @@ body {
     color: rgb(199, 88, 199);
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(255, 255, 255);
     outline: none;
     background: transparent;
   }
@@ -74,6 +75,10 @@ body {
     transition: .5s;
     margin-top: 40px;
     letter-spacing: 10px
+  }
+
+  .voltar{
+    text-size: 100px;
   }
   
   .login-box .a:hover {
@@ -166,30 +171,45 @@ body {
     }
   
 }
-
-
  
-.suamae{
-  text-decoration: none;
-    position: absolute;
-    text-decoration: none;
-    margin-top: -30%;
-    margin-bottom: -30%;
-
-    color: #918e91;
-    font-size: 0.7vw;
-    
-}
-
 button{
   background: transparent;
   text-transform: uppercase;
   border: none;
-
+  margin-left: 23%;
 }
-.decoration{
+
+redirecionamento{
+  margin-left: 50%;
+}
+
+
+.redirecionarC a{
+  position: absolute;
+  margin-top: -30%;
+  margin-bottom: -30%;   
+  margin-left: 5%;  
+  text-decoration-color: #b2b2b200;
+}
+
+.redirecionarE a{
+  position: absolute; 
+  margin-top: -30%;
+  margin-bottom: -30%;   
+  margin-left: 35%; 
+  text-decoration-color: #b2b2b200;
+  
+}
+
+.voltar a{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #f7f7f7;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  letter-spacing: 4px;
   text-decoration: none;
-  background-color: transparent;
- 
+  position: absolute;
 }
-
