@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="registro.css">
+    <script src="registro.js"> </script>
     <title>Registrar</title>
 </head>
 <body>
@@ -12,33 +13,48 @@
         <h2>Registrar</h2>
         <form>
           <div class="user-box">
-            <input type="text" name="" required="">
+            <input type="text" name="" required="" id="campo1">
             <label>Insira nome de usuario</label>
           </div>
           <div class="user-box">
-            <input type="password" name="" required="">
+            <input type="password" name="" required="" id="campo2">
             <label>Crie sua senha</label>
             </div>
             <div class="user-box">
-            <input type="text" name="" required="">
+            <input type="text" name="" required="" id="campo3">
             <label>Digite Seu Email</label>
             <div class="user-box">
-                <input type="text" name="" required="">
+                <input type="text" name="" required="" id="campo4">
                 <label>Número De Contato</label>
           </div>
-          <a href="#">
+          <button class="a" id="redirecionamento" value="Submit" onclick="validarFormulario()">
+            
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            Cadastrar
-          </a>
+            Submit
+          </button>
+          
         </form>
+
+      </div>
+      <div class="redirecionarL">
+      <a href="../login/login.html">  <p class = "decoration"> Login </p> </a> 
+     </div>
       </div>
       
-    </div>
-    <div class="funcione">
-    <a href="../login/login.html">  <p class = "teste"> Clique aqui para fazer login </p> </a> 
-   </div>
+  
+   <!--quem somos-->
+<div class="voltar">
+  <a id="voltar" href="../login/login.html">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    Voltar
+  </a>
+</div>
+<!--quem somos-->
 </body>
 </html>
