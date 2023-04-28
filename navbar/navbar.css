@@ -41,6 +41,8 @@ body {
     background-color: var(--color4);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.538);
     height: 3.5em;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     padding: 0 10%;
 }
@@ -95,125 +97,27 @@ body {
     color: var(--color3);
 }
 
-/* Configurações de Imagem */
+/* Configurações das options */
 
-img#user {
-    width: 200px;
-    height: 200px;
-    transform: translate(565px, 100px);
-}
-
-img#logo {
-    width: 54px;
-    height: 46px;
-    transform: translate(1148px, 120px);
-}
-
-/* Configurações de título */
-
-h1#titulo1{
-    color: var(--color6);
-    transform: translate(500px, 115px);
-    width: 500px;
-}
-
-h4#titulo2 {
-    color: darkgray;
-    text-align: center;
-    width: 300px;
-    transform: translate(42.7em, 6em);
-}
-
-/* Configurações de botões */ 
-
-a#btn {
-    transform: translate(158px, 152px);
-}
-
-a#btn2 {
-    padding: 10px;
-    text-decoration: none;
-    color: var(--color6);
+div#options {
     background-color: var(--color4);
-    border-radius: 16px;
-    position: absolute;
-    top: 44%;
-    left: 42%;
-}
-
-a#btn2:hover {
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.439);
-    transition: .1s;
-}
-
-a#btn3 {
+    width: 200px;
+    height: 100px;
     padding: 10px;
-    border-radius: 16px;
-    transform: translate(850px, -26px);
+    margin-left: 53.5em;
+    text-align: center;
+    display: none;
 }
 
-/* Configurações das opções laterais */
-
-
-#select {
-    background-color: rgb(24, 24, 24);
-    color: white;
+.op {
     text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    font-size: 20px;
+    color: var(--color6);
+}
+
+#op2 {
     position: absolute;
-    top: 24%;
-    left: 7.5%;
+    top: 17%;
+    left: 64.8%;
 }
 
-#select:hover {
-    background-color: white;
-    color: black;
-    transition: 0.4s;
-}
 
-#opcao2 {
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    position: absolute;
-    top: 42%;
-    left: 3%;
-    text-shadow: 1px 1px 4px black;
-}
-
-#opcao2:hover {
-    background-color: white;
-    color: black;
-    transition: 0.4s;
-    text-shadow: none;
-}
-
-#opcao3 {
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    position: absolute;
-    top: 61%;
-    left: 6.9%;
-    text-shadow: 1px 1px 4px black;
-}
-
-#opcao3:hover {
-    background-color: white;
-    color: black;
-    transition: 0.4s;
-    text-shadow: none;
-}
-
-#titulo {
-    position: absolute;
-    top: 37%;
-    left: 41%;
-    color: white;
-}

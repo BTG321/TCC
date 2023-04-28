@@ -27,3 +27,13 @@ window.addEventListener('resize', function(event) {
         toogleSidebar();
     }
 });
+
+function options() {
+    let op = document.getElementById('options')
+
+    if(op.style.display == 'block') {
+        op.style.display = 'none'
+    } else {
+        op.style.display = 'block'
+    }
+}
