@@ -105,6 +105,7 @@ div#options {
     height: 100px;
     padding: 10px;
     margin-left: 53.5em;
+    transform: translateY(50px);
     text-align: center;
     display: none;
 }
@@ -116,8 +117,8 @@ div#options {
 
 #op2 {
     position: absolute;
-    top: 17%;
-    left: 64.8%;
+    top: 50%;
+    left: 15%;
 }
 
 
