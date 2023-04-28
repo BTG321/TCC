@@ -303,6 +303,25 @@ p{
     width: 300px;
 }
 
+input[type=file] {
+    display: none;
+}
+
+#file {
+    color: var(--color6);
+    background-color: blue;
+    padding: 7px;
+    padding-top: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 26%;
+    left: 44%;
+}
+
+#file > svg {
+    transform: translateY(9px);
+}
 .radio-group label {
     display: inline-block;
     margin-right: 20px;
