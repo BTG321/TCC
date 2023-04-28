@@ -39,6 +39,9 @@
     background-color: var(--color4);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.538);
     height: 3.5em;
+    width: 100%;
+    z-index: 30;
+    position: fixed;
     justify-content: space-between;
     padding: 0 10%;
 }
@@ -159,7 +162,7 @@ a#btn3 {
     font-weight: bold;
     padding: 10px;
     font-size: 20px;
-    position: absolute;
+    position: fixed;
     top: 21%;
     left: -0.5%;
     box-shadow: #222020;
@@ -180,7 +183,7 @@ a#btn3 {
     font-weight: bold;
     padding: 10px;
     font-size: 20px;
-    position: absolute;
+    position: fixed;
     top: 35%;
     left: -0.5%;
     box-shadow: #222020;
@@ -201,7 +204,7 @@ a#btn3 {
     font-weight: bold;
     padding: 10px;
     font-size: 20px;
-    position: absolute;
+    position: fixed;
     top: 56%;
     left: -0.5%;
     box-shadow: #222020;
@@ -225,6 +228,8 @@ div#r1 {
         background-color: #00000070;
         width: 11%;
         height: 57em;
+        position: fixed;
+        margin-top: -22%;
         margin-left: -0.1%;
         box-shadow: 0 px 25px rgba(0, 0, 0, 0.397);
     }
@@ -259,11 +264,11 @@ html {
   }
     
     .login-box {
-      position: absolute;
-      margin-top: -24%;
+      position: relative;
+      margin-top: 26%;
       margin-left: -1%;
       left: 50%;
-      width: 30%;
+      width: 43%;
       padding: -2%;
       transform: translate(-50%, -50%);
       background: rgba(0,0,0,.5);
