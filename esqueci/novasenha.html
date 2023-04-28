@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperar a Senha</title>
-    <link rel="stylesheet" type="text/css" href="esqueci.css">
-    <script defer src="esqueci.js"> </script>
+    <title>Beyond The Game | Recuperar Senha</title>
+    <link rel="stylesheet" type="text/css" href="novasenha.css">
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
+    <script defer src="novasenha.js"> </script>
 </head>
 <body>  
     <div class="esqueci-box">
-        <h2>Recuperar Senha</h2>
-        <P>Para a recuperação de sua senha precisamos que nos informe seu email para mandarmos as instruções </P>
+        <h2>Código enviado ao seu email!</h2>
+        
 
         <form>
           <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Insira seu Email</label>
+            <input type="text" name="code" id="code" required>
+            <label>Insira o código:</label>
           </div>
-          
-             <!--direcionar para email encaminhado--><button id="show-or-hide">
+          <div class="user-box">
+            <input type="text" name="senha" id="senha" required>
+            <label for="senha">Insira sua nova senha:</label>
+          </div>
+             <!--direcionar para email encaminhado--><button id="show-or-hide" type="submit" onclick="aviso()">
             <span></span>
             <span></span>
             <span></span>
