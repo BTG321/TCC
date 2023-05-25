@@ -6,7 +6,7 @@ function aviso() {
     if (campo1.value == 0 || campo2.value == 0) {
         window.alert('Preencha todos os campos para prosseguir!')
     } else {
-        window.location.replace("../home/home-bibliotea.html");
+        window.location.replace("../home/emailencamimhado.html");
 
     }
 }
