@@ -189,7 +189,7 @@ redirecionamento{
   margin-top: -30%;
   margin-bottom: -30%;   
   margin-left: 5%;  
-  text-decoration-color: #b2b2b200;
+ text-decoration: none;
 }
 
 .redirecionarE a{
@@ -197,8 +197,8 @@ redirecionamento{
   margin-top: -30%;
   margin-bottom: -30%;   
   margin-left: 35%; 
-  text-decoration-color: #b2b2b200;
-  
+  text-decoration: none;
+
 }
 
 .voltar a{
@@ -212,4 +212,13 @@ redirecionamento{
   letter-spacing: 4px;
   text-decoration: none;
   position: absolute;
+}
+
+a:link {
+  color: #4a1e76;
+}
+
+/* link que foi visitado */
+a:visited {
+   color:#4a1e76;
 }
