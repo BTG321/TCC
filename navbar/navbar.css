@@ -86,6 +86,11 @@ body {
         animation-duration: 1s;
         margin-left: -100vw;
     }
+
+    details[open] {
+        transform: translateY(-29px);  
+        margin-bottom: -30px;
+    }
 }
 
 @keyframes showSidebar {
