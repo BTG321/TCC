@@ -121,4 +121,24 @@ div#options {
     left: 15%;
 }
 
+summary {
+    color: white;
+    font-weight: bold;
+}
+
+details[open] {
+    margin-top: 48px;
+    margin-right: -45px;
+    margin-left: -21px;
+    background-color: var(--color4);
+    padding: 10px;
+}
+
+.navigation_header > details > a {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+
+
 
