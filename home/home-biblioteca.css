@@ -84,6 +84,13 @@ body {
         animation-duration: 1s;
         margin-left: -100vw;
     }
+
+    details[open] {
+      transform: translate(-9px, -36px);
+      margin-bottom: -63px;
+      text-align: center;
+      padding: 0;
+  }
 }
 
 @keyframes showSidebar {
@@ -94,6 +101,32 @@ body {
 #active {
     color: var(--color3);
 }
+
+details {
+  margin-top: 6px;
+}
+
+summary {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+details[open] {
+  margin-top: 43px;
+  margin-right: -45px;
+  margin-left: -27.5px;
+  background-color: var(--color4);
+  padding: 10px;
+}
+
+div.header > .navigation_header > details > a {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+
 
 /* Configurações de Imagem */
 
