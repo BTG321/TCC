@@ -3,7 +3,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -15,6 +14,10 @@
     --color6: white;
 }
 
+body {
+   background-color: var(--color5);
+   font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /* Configurações da Navbar */
@@ -127,35 +130,6 @@ div.header > .navigation_header > details > a {
   margin-top: 10px;
 }
 
-/* Configurações de Imagem */
-
-img#user {
-    width: 200px;
-    height: 200px;
-    transform: translate(565px, 100px);
-}
-
-img#logo {
-    width: 54px;
-    height: 46px;
-    transform: translate(1148px, 120px);
-}
-
-/* Configurações de título */
-
-h1#titulo1{
-    color: var(--color6);
-    transform: translate(500px, 115px);
-    width: 500px;
-}
-
-h4#titulo2 {
-    color: darkgray;
-    text-align: center;
-    width: 300px;
-    transform: translate(42.7em, 6em);
-}
-
 /* Configurações de botões */ 
 
 a#btn {
@@ -186,367 +160,283 @@ a#btn3 {
 
 /* Configurações das opções laterais */
 
-
 #select {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    font-size: 20px;
-    position: fixed;
-    top: 13%;
-    left: -0.5%;
-    box-shadow: #222020;
-    width: 11.5%;
-    text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 21%;
+  left: 0.1%;
+  box-shadow: #222020;
+  width: 99.5%;
+  text-align: center;
 }
 
 #select:hover {
-    background-color: rgb(175, 3, 175);
-    color: rgb(0, 0, 0);
-    transition: 1s;
-    box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
+  background-color: rgb(255, 171, 16);
+  color: rgb(0, 0, 0);
+  transition: 1s;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
 }
 
+#opcao2 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 38%;
+  left: 0%;
+  width: 99.5%;
+  text-align: center;
+}
+
+#opcao2:hover {
+  background-color: rgb(255, 171, 16);
+  color: rgb(0, 0, 0);
+  transition: 1s;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
+}
 
 #opcao3 {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    font-size: 20px;
-    position: fixed;
-    top: 30%;
-    left: -0.5%;
-    box-shadow: #222020;
-    width: 11.5%;
-    text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 56%;
+  left: 0.1%;
+  box-shadow: #222020;
+  width: 99.5%;
+  text-align: center;
 }
 
 #opcao3:hover {
-    background-color: rgb(175, 3, 175);
-    color: rgb(0, 0, 0);
-    transition: 1s;
-    box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
+  background-color: rgb(255, 171, 16);
+  color: rgb(0, 0, 0);
+  transition: 1s;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
 }
 
-/* Nome da empresa */
+/* Configurações do menu lateral */
 
+#menulateral {
+    background-color: black;
+    width: 15%;
+    height: 100vh;
+    box-shadow: 0px 25px rgba(0, 0, 0, 0.397);
+    position: fixed;
+    transform: translateY(56px);
+}
 
-/* Configurações de div */
+/* Configurações do formulario */
 
-div#r1 {
-        background-color: #00000070;
-        width: 11%;
-        height: 57em;
-        position: fixed;
-        margin-left: -0.1%;
-        box-shadow: 0 px 25px rgba(0, 0, 0, 0.397);
-    }
+.box {
+  position: absolute;
+  top: 13%;
+  left: 36%;
+  background-color: rgba(0,0,0,.5);
+  height: 84%;
+  border-radius: 2%;
+}
 
+.imagemdobanner {
+  width: 100%;
+  height: 280px;
+  border-radius: 2%;
+}
 
+.imagemdaempresa {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid black;
+}
 
-/* Configurações do Formulário */
+#inputFile {
+   display: none;
+}
 
+#inputFile2 {
+  display: none;
+}
 
-
-
-
-
-
-
-
-
-/* Configurações de Imagem */
-
-
-/* Configurações do centro */
-
-
-html {
-    height: 100%;
-  }
-  body {
-    margin:0;
-    padding:0;
-    font-family: sans-serif;
-    background: #222020;
-  }
-    
-    .login-box {
-      position: relative;
-      margin-top: 26%;
-      margin-left: -1%;
-      left: 50%;
-      width: 43%;
-      padding: -2%;
-      transform: translate(-50%, -50%);
-      background: rgba(0,0,0,.5);
-      box-sizing: border-box;
-      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
-      border-radius: 2%;
-    }
-    
-    .login-box h2 {
-      margin: 0 0 30px;
-      padding: 0;
-      color: rgb(189, 182, 189);
-      text-align: center;
-    }
-    
-    .login-box .user-box {
-      position: relative;
-    }
-    
-    .login-box .user-box input {
-      width: 50%;
-      padding: 10px 0;
-      font-size: 16px;
-      color: rgb(199, 88, 199);
-      margin-bottom: 30px;
-      border: none;
-      border-bottom: 1px solid rgb(131, 131, 131);
-      outline: none;
-      background: transparent;
-      margin-left: 23%;
-      margin-top: 3%;
-    }
-    .login-box .user-box label {
-      position: absolute;
-      top:0;
-      left: 0;
-      padding: 10px 0;
-      font-size: 14px;
-      color: rgb(255, 255, 255);
-      pointer-events: none;
-      transition: .5s;
-      margin-left: 29%;
-      margin-top: 3%;
-    }
-    .login-box .user-box label {
-      position: absolute;
-      top:0;
-      left: 0;
-      padding: 10px 0;
-      font-size: 14px;
-      color: rgb(255, 255, 255);
-      pointer-events: none;
-      transition: .5s;
-      margin-left: 25%;
-      margin-top: 3%;
-    }
-    
-    .login-box .user-box input:focus ~ label,
-    .login-box .user-box input:valid ~ label {
-      top: -20px;
-      left: 0;
-      color: rgb(175, 3, 175);
-      font-size: 12px;
-    }
-
-    .login-box .user-box input:focus ~ label,
-    .login-box .user-box input:valid ~ label {
-      top: -20px;
-      left: 0;
-      color: rgb(175, 3, 175);
-      font-size: 12px;
-    }
-    
-    .login-box form .a {
-      position: relative;
-      display: inline-block;
-      padding: 15px 20px;
-      color: #dd32c1;
-      font-size: 16px;
-      text-decoration: none;
-      text-transform: uppercase;
-      overflow: hidden;
-      transition: .5s;
-      margin-top: 1px;
-      letter-spacing: 10px;
-      margin-left: 35%;
-    }
-    
-    .login-box .a:hover {
-      background: #960b9b;
-      color: rgb(185, 182, 185);
-      border-radius: 5px;
-      box-shadow: 0 0 5px #96059b,
-                  0 0 25px #96059b,
-                  0 0 50px #96059b,
-                  0 0 100px #96059b;
-    }
-    
-    .login-box .a span {
-      position: absolute;
-      display: block;
-    }
-    
-    .login-box .a span:nth-child(1) {
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 2px;
-      background: linear-gradient(90deg, transparent, #ca17ca);
-      animation: btn-anim1 1s linear infinite;
-    }
-    
-    @keyframes btn-anim1 {
-      0% {
-        left: -100%;
-      }
-      50%,100% {
-        left: 100%;
-      }
-    }
-    
-    .login-box .a span:nth-child(2) {
-      top: -100%;
-      right: 0;
-      width: 2px;
-      height: 100%;
-      background: linear-gradient(180deg, transparent,#ca17ca);
-      animation: btn-anim2 1s linear infinite;
-      animation-delay: .25s
-    }
-    
-    @keyframes btn-anim2 {
-      0% {
-        top: -100%;
-      }
-      50%,100% {
-        top: 100%;
-      }
-    }
-    
-    .login-box .a span:nth-child(3) {
-      bottom: 0;
-      right: -100%;
-      width: 100%;
-      height: 2px;
-      background: linear-gradient(270deg, transparent, #ca17ca);
-      animation: btn-anim3 1s linear infinite;
-      animation-delay: .5s
-    }
-    
-    @keyframes btn-anim3 {
-      0% {
-        right: -100%;
-      }
-      50%,100% {
-        right: 100%;
-      }
-    }
-    
-    .login-box .a span:nth-child(4) {
-      bottom: -100%;
-      left: 0;
-      width: 2px;
-      height: 100%;
-      background: linear-gradient(360deg, transparent,#ca17ca);
-      animation: btn-anim4 1s linear infinite;
-      animation-delay: .75s
-    }
-    
-    @keyframes btn-anim4 {
-      0% {
-        bottom: -100%;
-      }
-      50%,100% {
-        bottom: 100%;
-      }
-    
-  }
-  
-  
-   
-  .suamae{
-    text-decoration: none;
-      position: absolute;
-      text-decoration: none;
-      margin-top: -30%;
-      margin-bottom: -30%;
-  
-      color: #918e91;
-      font-size: 0.7vw;
-      
-  }
-  
-  button{
-    background: transparent;
-    text-transform: uppercase;
-    border: none;
-    align-items: center;
-    margin-left: 30%;
-    margin-right: 40%
-  
-  }
-  .decoration{
-    text-decoration: none;
-    background-color: transparent;
-   
-  }
-  
-  .imagemdaempresa{
-   border-radius: 50%;
-   border: .5em solid #0f0f0f;
-   background-color: #0c0c0d;
-   z-index: 6000;
-   position: relative;
-   margin-top: -24%;
-   margin-left: 10%;
-   z-index: -1;
-  }
-
-  .imagemdobanner{
-    position: relative;
-    margin-top: -75%;
-    height: 30%;
-    width: 100%;
-    border-radius: 3%;
-    z-index: -1;
-  }
-
-  input[type=file] {
-    display: none;
-  }
-
-  #file {
-    color: white;
-    background-color: blue;
-    padding: 6px;
-    border-radius: 12px;
-    cursor: pointer;
-    transform: translate(560px, -300px);
-  }
-
-  #file2 {
-    color: white;
-    background-color: blue;
-    padding: 6px;
-    border-radius: 12px;
-    cursor: pointer;
-    transform: translate(-30px, -95px);
-  }
-
-  .novasenha{
+#file {
     position: absolute;
-    margin-top: -12%;
+    top: -41vh;
+    left: 91%;
+    background-color: blue;
     color: white;
-    font-size: 20px;
-    margin-left: 34%;
-  }
-  .novousuario{
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#file2 {
+    position: absolute;
+    top: -5vh;
+    left: 24%;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.inputBox {
     position: relative;
-    z-index: 90;
-    margin-top: -30%;
+}
+
+.novousuario {
+  display: block;
+  color: white;
+  font-size: 26px;
+  transform: translate(35%, 31%);
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    outline: none;
     color: white;
-    font-size: 200%;
-    margin-left: 35%;
+    font-size: 15px;
+    width: 50%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+    pointer-events: none;
+    transition: .5s;
+    color: white;
+}
+
+#campo1 {
+    transform: translate(24%, 174%);
+}
+
+#campo2 {
+    transform: translate(24%, 280%);
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: #960B9B;
+}
+
+.submit {
+  position: relative;
+  background-color: transparent;
+  color: #dd32c1;
+  border: none;
+  letter-spacing: 10px;
+  font-size: 16px;
+  padding: 15px 20px;
+  padding-left: 27px;
+  overflow: hidden;
+  transform: translate(111%, 190%);
+}
+
+.submit:hover {
+  background: #960b9b;
+  color: rgb(185, 182, 185);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #96059b, 0 0 25px #96059b, 0 0 50px #96059b, 0 0 100px #96059b;
+}
+
+.submit span:first-of-type {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(to right, transparent, #dd32c1);
+   animation: animar1 2s linear infinite;
+}
+
+@keyframes animar1 {
+   0% {
+      transform: translateX(-100%);
+   }
+
+   100% {
+    transform: translateX(100%);
+   }
+}
+
+.submit span:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #dd32c1);
+  animation: animar2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animar2 {
+  0% {
+     transform: translateY(-100%);
   }
-  
-  .input {
-     transform: translateY(-30px);
+
+  100% {
+   transform: translateY(100%);
   }
+}
+
+.submit span:nth-of-type(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, transparent, #dd32c1);
+  animation: animar3 2s linear infinite;
+}
+
+@keyframes animar3 {
+  0% {
+     transform: translateX(100%);
+  }
+
+  100% {
+   transform: translateX(-100%);
+  }
+}
+
+.submit span:last-of-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, transparent, #dd32c1);
+  animation: animar4 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animar4 {
+  0% {
+     transform: translateY(100%);
+  }
+
+  100% {
+   transform: translateY(-100%);
+  }
+}
 
 

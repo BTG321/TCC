@@ -119,14 +119,6 @@ div.aviso {
     display: none;
 }
 
-div#left {
-    background-color: #00000070;
-    width: 12.5%;
-    height: 37.5em;
-    margin-left: -0.1%;
-    box-shadow: 0px 25px rgba(0, 0, 0, 0.397);
-}
-
 h1#titulo1 {
     color: var(--color6);
     text-shadow: 1px 1px 5px black;
@@ -144,41 +136,39 @@ h1#titulo1 {
     font-size: 20px;
     position: absolute;
     top: 21%;
-    left: -0.5%;
-    box-shadow: #222020;
-    width: 11.5%;
+    left: 0.1%;
+    width: 95.5%;
     text-align: center;
-}
-
-#select:hover {
+  }
+  
+  #select:hover {
     background-color: rgb(255, 171, 16);
     color: rgb(0, 0, 0);
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
-}
-
-#opcao2 {
+  }
+  
+  #opcao2 {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
     font-size: 20px;
     position: absolute;
-    top: 35%;
-    left: -0.5%;
-    box-shadow: #222020;
-    width: 11.5%;
+    top: 38%;
+    left: 0%;
+    width: 95.5%;
     text-align: center;
-}
-
-#opcao2:hover {
+  }
+  
+  #opcao2:hover {
     background-color: rgb(255, 171, 16);
     color: rgb(0, 0, 0);
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
-}
-
-#opcao3 {
+  }
+  
+  #opcao3 {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
@@ -186,18 +176,32 @@ h1#titulo1 {
     font-size: 20px;
     position: absolute;
     top: 56%;
-    left: -0.5%;
+    left: 0.1%;
     box-shadow: #222020;
-    width: 11.5%;
+    width: 95.5%;
     text-align: center;
-}
-
-#opcao3:hover {
+  }
+  
+  #opcao3:hover {
     background-color: rgb(255, 171, 16);
     color: rgb(0, 0, 0);
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
-}
+  }
+  
+  /* Configurações do menu lateral */
+  
+  #menulateral {
+      background-color: black;
+      width: 15%;
+      height: 100vh;
+      box-shadow: 0px 25px rgba(0, 0, 0, 0.397);
+      position: fixed;
+  }
+  
+  #menulateral > a {
+    margin-left: -5%;
+  }
 
 /* Configurações de botões */
 

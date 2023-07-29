@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1400px){
+    .box {
+        height: 78%;
+        width: 41%;
+    }
+
+    .imagemdobanner {
+        height: 40%;
+    }
+
+    .imagemdaempresa {
+        width: 21%;
+        height: 16%;
+        transform: translateY(-80%);
+    }
+
+    #file {
+        transform: translate(23%, 314%);
+    }
+
+    .novousuario {
+        font-size: 32px;
+    }
+
+    #campo1 {
+        transform: translate(24%, 272%);
+    }
+
+    #campo2 {
+        transform: translate(24%, 439%);
+    }
+
+    #campo1 > .labelInput, #campo2 > .labelInput{
+        font-size: 20px;
+    }
+
+    #campo1 > #nomedev, #campo2 > #novasenha {
+        transform: translateY(40%);
+    }
+
+    .submit {
+        width: 32%;
+        transform: translate(103%, 334%);
+    }
+}

@@ -28,11 +28,15 @@ window.addEventListener('resize', function(event) {
     }
 });
 
-const input = document.getElementById("campo2");
+const input = document.getElementById("nomedev");
 const output = document.querySelector(".novousuario");
 
 input.addEventListener("input", () => {
-  output.innerHTML = input.value;
+  if(input.value == '') {
+    output.innerHTML = "null"
+  } else {
+    output.innerHTML = input.value;
+  }
 });
 
 const inputFile = document.getElementById('inputFile');
