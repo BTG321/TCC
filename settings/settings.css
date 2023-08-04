@@ -130,6 +130,7 @@ div.header > .navigation_header > details > a {
   margin-top: 10px;
 }
 
+
 /* Configurações das opções laterais */
 
 #select {
@@ -142,7 +143,7 @@ div.header > .navigation_header > details > a {
   top: 21%;
   left: 0.1%;
   box-shadow: #222020;
-  width: 92.8%;
+  width: 99.5%;
   text-align: center;
 }
 
@@ -162,7 +163,7 @@ div.header > .navigation_header > details > a {
   position: absolute;
   top: 38%;
   left: 0%;
-  width: 92.8%;
+  width: 99.5%;
   text-align: center;
 }
 
@@ -183,7 +184,7 @@ div.header > .navigation_header > details > a {
   top: 56%;
   left: 0.1%;
   box-shadow: #222020;
-  width: 92.8%;
+  width: 99.5%;
   text-align: center;
 }
 
