@@ -28,16 +28,16 @@ window.addEventListener('resize', function(event) {
     }
 });
 
-function clicar(){
-    let botao = document.getElementById('btn1')
-    let container = document.querySelector('.aviso')
+let afirmacao = document.getElementById('btn1')
+let caixa = document.querySelector('.box')
+let aviso = document.querySelector('.aviso')
 
-    if(container.style.display == 'block'){
-        container.style.display = 'none'
-    } else {
-        container.style.display = 'block'
+afirmacao.addEventListener('click', function() {
+    if(aviso.style.display == 'none') {
+        aviso.style.display = 'block'
     }
-}
+   
+})
 
 function redirecionar(){
     window.location.href = "../settings/settings.html"
@@ -48,3 +48,4 @@ function cancelar(){
 
     container.style.display = 'none'
 }
+

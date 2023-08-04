@@ -7,17 +7,22 @@
     }
 
     .imagemdobanner {
-        height: 40%;
+        height: 51%;
     }
 
     .imagemdaempresa {
-        width: 21%;
-        height: 16%;
-        transform: translateY(-80%);
+        width: 19%;
+        height: 19%;
+        position: absolute;
+        top: 41%;
     }
 
     #file {
-        transform: translate(23%, 314%);
+        transform: translate(50%, 85%);
+    }
+
+    #file2 {
+        transform: translate(4%, -57%);
     }
 
     .novousuario {

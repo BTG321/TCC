@@ -99,11 +99,10 @@ body {
 
 div.box {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
     width: 500px;
     padding: 40px;
-    transform: translate(-50%, -50%);
     background: rgba(0,0,0,.5);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -112,11 +111,11 @@ div.box {
 
 div.aviso {
     background-color:  rgba(255, 166, 0, 0.748);
-    margin: -43% 32.9%;
     width: 400px;
     text-align: center;
     padding: 30px;
     display: none;
+    position: absolute;
 }
 
 h1#titulo1 {
@@ -188,6 +187,26 @@ h1#titulo1 {
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }
+
+  summary {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-top: 5px;
+  }
+  
+  details[open] {
+    margin-top: 36px;
+    margin-right: -45px;
+    margin-left: -27.5px;
+    background-color: var(--color4);
+    padding: 10px;
+  }
+  
+  div.header > .navigation_header > details > a {
+    font-weight: normal;
+  }
   
   /* Configurações do menu lateral */
   
@@ -197,10 +216,6 @@ h1#titulo1 {
       height: 100vh;
       box-shadow: 0px 25px rgba(0, 0, 0, 0.397);
       position: fixed;
-  }
-  
-  #menulateral > a {
-    margin-left: -5%;
   }
 
 /* Configurações de botões */

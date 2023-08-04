@@ -130,34 +130,6 @@ div.header > .navigation_header > details > a {
   margin-top: 10px;
 }
 
-/* Configurações de botões */ 
-
-a#btn {
-    transform: translate(158px, 152px);
-}
-
-a#btn2 {
-    padding: 10px;
-    text-decoration: none;
-    color: var(--color6);
-    background-color: var(--color4);
-    border-radius: 16px;
-    position: absolute;
-    top: 44%;
-    left: 42%;
-}
-
-a#btn2:hover {
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.439);
-    transition: .1s;
-}
-
-a#btn3 {
-    padding: 10px;
-    border-radius: 16px;
-    transform: translate(850px, -26px);
-}
-
 /* Configurações das opções laterais */
 
 #select {
@@ -170,7 +142,7 @@ a#btn3 {
   top: 21%;
   left: 0.1%;
   box-shadow: #222020;
-  width: 99.5%;
+  width: 92.8%;
   text-align: center;
 }
 
@@ -190,7 +162,7 @@ a#btn3 {
   position: absolute;
   top: 38%;
   left: 0%;
-  width: 99.5%;
+  width: 92.8%;
   text-align: center;
 }
 
@@ -211,7 +183,7 @@ a#btn3 {
   top: 56%;
   left: 0.1%;
   box-shadow: #222020;
-  width: 99.5%;
+  width: 92.8%;
   text-align: center;
 }
 
