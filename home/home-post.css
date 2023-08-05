@@ -310,6 +310,11 @@ h2 span {
 
 /* Configurações da postagem */
 
+.perfil {
+   display: flex;
+   align-items: center;
+}
+
 .postagem {
   background-color: #000000;
   color: var(--color6);
@@ -341,12 +346,12 @@ h2 span {
   left: 53%;
 }
 
-#img1 {
+.img1 {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 2px;
 }
 
-#img2 {
+.img2 {
     width: 440px;
     height: 390px;
     margin-left: 30px;
@@ -355,35 +360,16 @@ h2 span {
     margin-top: 30px;
 }
 
-#curtida {
+.curtida {
     background-color: transparent;
     border: none;
     margin-left: 30px;
     margin-top: -10px;
 }
 
-#like {
-    width: 35px;
-    padding: 6px;
-    cursor: pointer;
-    background-color: var(--color6);
-}
-
-#comentario {
+.comentario {
     background-color: transparent;
     border: none;
-}
-
-#comment {
-    width: 35px;
-    padding: 6px;
-    background-color: var(--color6);
-    cursor: pointer;
-}
-
-#text1 {
-    transform: translate(75px, -34px);
-    letter-spacing: 0.5px;
 }
 
 .icone-bnt{
