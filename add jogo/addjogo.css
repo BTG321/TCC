@@ -84,6 +84,36 @@ body {
         animation-duration: 1s;
         margin-left: -100vw;
     }
+
+    details[open] {
+      transform: translate(-9px, -36px);
+      margin-bottom: -63px;
+      text-align: center;
+      padding: 0;
+  }
+}
+
+details {
+  margin-top: 6px;
+}
+
+summary {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+details[open] {
+  margin-top: 55px;
+  margin-right: -45px;
+  background-color: var(--color4);
+  padding: 10px;
+}
+
+div.header > .navigation_header > details > a {
+  font-weight: normal;
+  margin-top: 10px;
 }
 
 @keyframes showSidebar {
@@ -95,28 +125,28 @@ body {
     color: var(--color3);
 }
 
-/* Configurações das options */
-
-div#options {
-    background-color: var(--color4);
-    width: 200px;
-    height: 100px;
-    padding: 10px;
-    margin-left: 53.5em;
-    transform: translateY(50px);
-    text-align: center;
-    display: none;
+details {
+  margin-top: 6px;
 }
 
-.op {
-    text-decoration: none;
-    color: var(--color6);
+summary {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 6px;
 }
 
-#op2 {
-    position: absolute;
-    top: 50%;
-    left: 15%;
+details[open] {
+  margin-top: 43px;
+  margin-right: -45px;
+  margin-left: -27.5px;
+  background-color: var(--color4);
+  padding: 10px;
+}
+
+div.header > .navigation_header > details > a {
+  font-weight: normal;
+  margin-top: 10px;
 }
 
 /* imagens do jogo */
@@ -135,6 +165,7 @@ img#img-game{
     height: 400px;
     overflow: hidden;
     margin: 10%;
+    position: absolute;
 }
 
 .slides {
@@ -278,25 +309,20 @@ h1{
   }
 
 .atributos {
-    margin-top: -32%;
-    margin-left: 68%;
     position: absolute;
-    
-    
+    top: 26%;
+    left: 66%;
 }
 
-
 .titulo{
-   margin-top: -7%;  
-   margin-left: 13%;
    position: absolute;
-   
+   top: 16%;
+   left: 10%;
 }
 
 p{
     color: rgb(106, 27, 185);
 }
-
 
 .descricao{
     margin-top: 5%;
@@ -311,17 +337,14 @@ input[type=file] {
     color: var(--color6);
     background-color: blue;
     padding: 7px;
-    padding-top: 0px;
+    padding-bottom: 2px;
     border-radius: 10px;
     cursor: pointer;
     position: absolute;
-    top: 26%;
-    left: 44%;
+    top: 27%;
+    left: 59%;
 }
 
-#file > svg {
-    transform: translateY(9px);
-}
 .radio-group label {
     display: inline-block;
     margin-right: 20px;
@@ -354,6 +377,8 @@ input[type=file] {
     font-size: 25px;
   }
 
+/* Configurações do botão de submit */
+
 .a {
     position: relative;
     display: inline-block;
@@ -369,7 +394,8 @@ input[type=file] {
     text-decoration: none;
     background-color: #0000002d;
     border: none;
-   margin-left: 20%;
+    margin-left: 20%;
+    cursor: pointer;
   }
   
 .a:hover {
@@ -463,6 +489,3 @@ input[type=file] {
   
 }
 
-.suamae{
-    width: 300px;
-}
