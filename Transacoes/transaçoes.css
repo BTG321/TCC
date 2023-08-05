@@ -139,14 +139,13 @@ details {
     position: absolute;
     top: 21%;
     left: 0.1%;
-    box-shadow: #222020;
     width: 99.5%;
     text-align: center;
   }
   
   #select:hover {
     background-color: rgb(255, 171, 16);
-    color: rgb(0, 0, 0);
+    color: black;
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }
@@ -166,7 +165,7 @@ details {
   
   #opcao2:hover {
     background-color: rgb(255, 171, 16);
-    color: rgb(0, 0, 0);
+    color: black;
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }
@@ -180,14 +179,13 @@ details {
     position: absolute;
     top: 56%;
     left: 0.1%;
-    box-shadow: #222020;
     width: 99.5%;
     text-align: center;
   }
   
   #opcao3:hover {
     background-color: rgb(255, 171, 16);
-    color: rgb(0, 0, 0);
+    color: black;
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }

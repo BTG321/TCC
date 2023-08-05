@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="home-post.css">
-    <script src="home.js"> </script>
-
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
+    <title>Beyond The Game</title>
 </head>
 <body>
     <!--Navbar-->
@@ -43,135 +42,140 @@
         </div>
     </div>
    <main>
-    <img class="banner" src="../imagens/bannerriot.jpeg">
-    
-    
+    <div class="fundo">
+        <img class="banner" src="../imagens/bannerriot.jpeg">
+    </div>
     <div class="profile">
-          <img class="logoempresa" src="../imagens/logoriot.jpeg">
-          
-          <div class="nome-empresa"> 
+        <div class="logo">
+            <img class="logoempresa" src="../imagens/logoriot.jpeg">
+        </div>
+        
+        <div class="nome-empresa"> 
             <h2>Riot Games</h2>
-          </div>
+        </div>
 
-          <div class="seguidores">
+        <div class="seguidores">
             <p>100k Seguidores</p>
-          </div>
+        </div>
 
-          <div class="navegacao">
-           <div class="biblioteca"><a href="home-bibliotea.html">Biblioteca</a></div>
-           <div class="post"><a class="post-alternativa-tecnica" href="home-post.html">Postagens</a></div>
-           <hr class="hr1">
-          </div>
+        <div class="navegacao">
+            <div class="biblioteca">
+                <a href="home-bibliotea.html" id="select">Biblioteca</a>
+            </div>
+            <div class="post">
+                <a href="home-post.html">Postagens</a>
+            </div>
+            <hr class="hr1">
+        </div>
     </div>
+        <div class="postagem" id="post1">
+            <a href="#">
+                <img src="../imagens/logoriot.png" alt="logo" id="img1">
+            </a>
+            <p id="text1">riotgames</p>
+    
+            <img src="../imagens/postagem-insta.jpeg" alt="postagem" id="img2">
+    
+    
+            <button id="curtida" onclick="change()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <p>8k</p>
+            </button>
+            <button id="comentario">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
+                    <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                  </svg>
+                  <p>862</p>
+            </button>
+    
+            <P class="descricao">
+                Pedimos ajuda aos nossos jogadores para determinar <br> como alocar mais de US$ 6 milhões em subsídios do <br> Fundo de Impacto Social da Riot Games</P>
+    
+        </div>
+    
+        <div class="postagem" id="post2">
+            <a href="#">
+                <img src="../imagens/logoriot.png" alt="logo" id="img1">
+            </a>
+            <p id="text1">riotgames</p>
+    
+            <img src="../imagens/postagem-insta.jpeg" alt="postagem" id="img2">
+    
+    
+            <button id="curtida" onclick="change()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <p>8k</p>
+            </button>
+            <button id="comentario">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
+                    <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                  </svg>
+                  <p>862</p>
+            </button>
+    
+            <p class="descricao">
+                Pedimos ajuda aos nossos jogadores para determinar <br> como alocar mais de US$ 6 milhões em subsídios do <br> Fundo de Impacto Social da Riot Games</p>
+    
+        </div>
 
-    <div id="postagem">
-        <a href="#">
-            <img src="../imagens/logoriot.png" alt="logo" id="img1">
-        </a>
-        <p id="text1">riotgames</p>
-       
-        <img src="../imagens/postagem-insta.jpeg" alt="postagem" id="img2">
-
-         
-        <button id="curtida" onclick="change()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-              </svg>
-              <p>8k</p>
-        </button>
-        <button id="comentario">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
-                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
-              </svg>
-              <p>862</p>
-        </button>
-
-        <P class="descricao">
-            Pedimos ajuda aos nossos jogadores para determinar <br> como alocar mais de US$ 6 milhões em subsídios do <br> Fundo de Impacto Social da Riot Games</P>
-
-    </div>
-
-    <div id="postagem2">
-        <a href="#">
-            <img src="../imagens/logoriot.png" alt="logo" id="img1">
-        </a>
-        <p id="text1">riotgames</p>
-       
-        <img src="../imagens/postagem-insta.jpeg" alt="postagem" id="img2">
-
-         
-        <button id="curtida" onclick="change()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-              </svg>
-              <p>8k</p>
-        </button>
-        <button id="comentario">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
-                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
-              </svg>
-              <p>862</p>
-        </button>
-
-        <p class="descricao">
-            Pedimos ajuda aos nossos jogadores para determinar <br> como alocar mais de US$ 6 milhões em subsídios do <br> Fundo de Impacto Social da Riot Games</p>
-
-    </div>
-
-    <div id="postagem3">
-        <a href="#">
-            <img src="../imagens/logoriot.png" alt="logo" id="img1">
-        </a>
-        <p id="text1">riotgames</p>
-       
-        <img src="../imagens/postagem-insta.jpeg" alt="postagem" id="img2">
-
-         
-        <button id="curtida" onclick="change()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-              </svg>
-              <p>8k</p>
-        </button>
-        <button id="comentario">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
-                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
-              </svg>
-              <p>862</p>
-        </button>
-
-        <p class="descricao">
-            Pedimos ajuda aos nossos jogadores para determinar <br> como alocar mais de US$ 6 milhões em subsídios do <br> Fundo de Impacto Social da Riot Games</p>
-
-    </div>
-
-    <div id="postagem4">
-        <a href="#">
-            <img src="../imagens/logoriot.png" alt="logo" id="img1">
-        </a>
-        <p id="text1">riotgames</p>
-       
-        <img src="../imagens/postagem-insta.jpeg" alt="postagem" id="img2">
-
-         
-        <button id="curtida" onclick="change()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-              </svg>
-              <p>8k</p>
-        </button>
-        <button id="comentario">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
-                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
-              </svg>
-              <p>862</p>
-        </button>
-
-        <p class="descricao">
-            Pedimos ajuda aos nossos jogadores para determinar <br> como alocar mais de US$ 6 milhões em subsídios do <br> Fundo de Impacto Social da Riot Games</p>
-
-    </div>
-
+        <div class="postagem" id="post3">
+            <a href="#">
+                <img src="../imagens/logoriot.png" alt="logo" id="img1">
+            </a>
+            <p id="text1">riotgames</p>
+    
+            <img src="../imagens/postagem-insta.jpeg" alt="postagem" id="img2">
+    
+    
+            <button id="curtida" onclick="change()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <p>8k</p>
+            </button>
+            <button id="comentario">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
+                    <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                  </svg>
+                  <p>862</p>
+            </button>
+    
+            <p class="descricao">
+                Pedimos ajuda aos nossos jogadores para determinar <br> como alocar mais de US$ 6 milhões em subsídios do <br> Fundo de Impacto Social da Riot Games</p>
+    
+        </div>
+    
+        <div class="postagem" id="post4">
+            <a href="#">
+                <img src="../imagens/logoriot.png" alt="logo" id="img1">
+            </a>
+            <p id="text1">riotgames</p>
+    
+            <img src="../imagens/postagem-insta.jpeg" alt="postagem" id="img2">
+    
+    
+            <button id="curtida" onclick="change()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <p>8k</p>
+            </button>
+            <button id="comentario">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icone-bnt" viewBox="0 0 16 16">
+                    <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                  </svg>
+                  <p>862</p>
+            </button>
+    
+            <p class="descricao">
+                Pedimos ajuda aos nossos jogadores para determinar <br> como alocar mais de US$ 6 milhões em subsídios do <br> Fundo de Impacto Social da Riot Games</p>
+    
+        </div>
    </main>
 </body>
+    <script src="home.js"></script>    
 </html>
