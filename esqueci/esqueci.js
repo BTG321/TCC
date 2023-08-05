@@ -1,20 +1,12 @@
-var btn = document.querySelector('#show-or-hide');
-var container = document.querySelector('.container')
+let submit = document.getElementById('show-or-hide')
+let aviso = document.querySelector('.container')
 
-btn.addEventListener('click', function() {
-    if(container.style.visibility === 'visible') {
-        container.style.visibility = 'hidden';
-        console.log("Olá Mundo");
-    } else {
-        container.style.visibility = 'visible';
-    }
-});
+submit.addEventListener('click', function(){
+    aviso.style.display = 'block'
+})
 
+let fechar = document.getElementById('fechar')
 
-
-//const btn = document.querySelector('#show-or-hide');
-//const container = document.querySelector('.container')
-
-//btn.addEventListener('click', () => {
-  //  container.style.display = 'block'/
-//})
+fechar.addEventListener('click', function(){
+    aviso.style.display = 'none'
+})

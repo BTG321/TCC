@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperar a Senha</title>
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="esqueci.css">
-    <script defer src="esqueci.js"> </script>
+    <title>Beyond The Game - Recuperar a Senha</title>
 </head>
 <body>  
     <div class="esqueci-box">
         <h2>Recuperar Senha</h2>
-        <P>Para a recuperação de sua senha precisamos que nos informe seu email para mandarmos as instruções </P>
+        <p>Para a recuperação de sua senha precisamos que nos informe seu email para mandarmos as instruções </p>
 
-        <form>
+        <form action="" method="post">
           <div class="user-box">
-            <input type="text" name="" required="">
+            <input type="email" name="email" required="">
             <label>Insira seu Email</label>
           </div>
           
-             <!--direcionar para email encaminhado--><button id="show-or-hide">
+          <button type="submit" id="show-or-hide">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Enviar
-             </button>
-         
+          </button>
         </form>
       </div>
 
-      <!--Retirar popup--><div class="container"><h2>Email enviado com sucesso!!!</h2></div>
+      <div class="container">
+        <div id="fechar">X</div>
+        <h2>Email enviado com sucesso!!!</h2>
+      </div>
 
       <a href="../login/login.html">
         <span></span>
@@ -38,6 +40,7 @@
         <span></span>
         <span></span>
         Voltar
-         </button>
+      </a>
 </body>
+   <script defer src="esqueci.js"></script>
 </html>

@@ -7,6 +7,11 @@ body {
   font-family: sans-serif;
   background: linear-gradient(#0d0514, #4a1e76);
 }
+
+#fechar {
+  cursor: pointer;
+  color: white;
+}
   
   .container {
     position: absolute;
@@ -19,8 +24,7 @@ body {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
-    /*display:none;*/
-    visibility: none;
+    display: none;
   }
   
   .container h2 {
@@ -30,8 +34,6 @@ body {
     text-align: center;
   }
   
-
-
   .esqueci-box {
     position: absolute;
     top: 50%;
@@ -86,13 +88,9 @@ body {
     font-size: 12px;
   }
    
-
-.esqueci-box p {
-
-    color: #e5e5e5;
-}
-
-
+  .esqueci-box p {
+      color: #e5e5e5;
+  }
 
   .esqueci-box form {
     text-align: center;
@@ -110,13 +108,14 @@ body {
     transition: .5s;
     margin-top: 20px;
     letter-spacing: 4px;
+    border: none;
+    cursor: pointer;
   }
 
   
   .esqueci-box button:hover {
     background: #9a00dc;
     color: #fff;
-    border-radius: 5px;
     box-shadow: 0 0 5px #9a00dc,
                 0 0 25px #9a00dc,
                 0 0 50px #9a00dc,
