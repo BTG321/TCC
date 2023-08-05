@@ -4,62 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="registro.css">
-    <script src="registro.js"> </script>
-    <title>Registrar</title>
+    <title>Beyond The Game - Registrar</title>
 </head>
 <body>
     <div class="login-box">
         <h2>Registrar</h2>
         <form>
           <div class="user-box">
-            <input type="text" name="" required="" id="campo1">
-            <label>Insira nome de usuario</label>
+            <input type="text" name="usuario" required="" id="campo1">
+            <label for="campo1">Insira nome de usuario</label>
           </div>
           <div class="user-box">
-            <input type="password" name="" required="" id="campo2">
-            <label>Crie sua senha</label>
+            <input type="text" name="senha" required="" id="campo2">
+            <label for="campo2">Crie sua senha</label>
             </div>
             <div class="user-box">
-            <input type="text" name="" required="" id="campo3"> <!-- colocar input email-->
-            <label>Digite Seu Email</label>
+            <input type="email" name="email" required="" id="campo3"> 
+            <label for="campo3">Digite Seu Email</label>
             </div>
             <div class="user-box">
-                <input type="text" name="" required="" id="campo4"> <!-- colocar input telefone-->
-                <label>Número De Contato</label>
-          </div>
-          <button class="a" id="redirecionamento" value="Submit" onclick="validarFormulario()">
-            
+                <input type="tel" name="telefone" required="" id="campo4"> 
+                <label for="campo4">Número De Contato</label>
+           </div>
+          <button type="submit" class="a" id="redirecionamento">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            Submit
+            Enviar
           </button>
-          
         </form>
-
       </div>
-    
-      
-
-
-
-
-
-    
-      
-  
-   <!--quem somos-->
-<div class="voltar">
-  <a id="voltar" href="../login/login.html">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    Voltar
-  </a>
-</div>
-<!--quem somos-->
+ 
+      <div class="voltar">
+        <a id="voltar" href="../login/login.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Voltar
+        </a>
+      </div>
 </body>
+  <script src="registro.js"></script>
 </html>

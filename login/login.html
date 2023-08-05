@@ -1,22 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="login.css">
-    <script src="login.js"> </script>
-    <title>login</title>
+    <title>Beyond The Game - Login</title>
 </div>
 </head>
 <body> 
-
-
     <div class="login-box">
-
-        <h2>Login</h2>
-        <form>
+      <h2>Login</h2>
+      <form action="" method="post">
           <div class="input-box">
             <input type="text" name="" required="" id="campo1">
             <label>Username</label>
@@ -25,30 +21,30 @@
             <input type="password" name="" required="" id="campo2">
             <label>Password</label>
           </div>
-          <button class="bnt-submit" id="bnt-submit" value="Submit" type="submit" onclick="validarFormulario()">
+          <button type="submit" class="bnt-submit" id="bnt-submit" onclick="validarFormulario()">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             LOGAR
-          </button>
-          
-        </form>
+          </button> 
+      </form>
      
       <div class="redirecionarC" > 
-      <a id="redirecionar" href="../registro/registro.html"><p class="decoration">Cadastro</p> </a>
+        <a id="redirecionar" href="../registro/registro.html">
+          <p class="decoration">Cadastro</p>
+        </a>
       </div>
 
       <div class="redirecionarE" > 
-        <a id="redirecionar" href="../esqueci/esqueci.html"><p class="decoration">Esqueci a Senha</p> </a>
-        </div>
-
-
+        <a id="redirecionar" href="../esqueci/esqueci.html">
+          <p class="decoration">Esqueci a Senha</p>
+        </a>
+      </div>
   </div>
-  <!--Voltar para Quem somos-->
-<div class="voltar">
-  <a id="voltar" href="../fundo/fundo.html">voltar</a>
-</div>
-<!--Voltar para Quem somos-->
+  <div class="voltar">
+    <a id="voltar" href="../fundo/fundo.html">voltar</a>
+  </div>
 </body>
+    <script src="login.js"></script>
 </html>

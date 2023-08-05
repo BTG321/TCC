@@ -203,6 +203,7 @@ button{
   text-transform: uppercase;
   border: none;
   margin-left: 23%;
+  cursor: pointer;
 }
 .redirecionarL a{
   position: absolute; 
