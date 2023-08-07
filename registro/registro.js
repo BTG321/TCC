@@ -3,7 +3,7 @@ let campo1 = document.getElementById("campo1")
 let campo2 = document.getElementById("campo2")
 let campo3 = document.getElementById("campo3")
 let campo4 = document.getElementById("campo4")
-
+Event.preventDefault()
 submit.addEventListener('click', function(){
   if (campo1.value == '' || campo2.value == '' || campo3.value == '' || campo4.value == '') {
     window.alert("Por favor, preencha todos os campos.");
