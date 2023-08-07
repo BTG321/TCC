@@ -8,7 +8,7 @@ submit.addEventListener('click', function(){
   if (campo1.value == '' || campo2.value == '' || campo3.value == '' || campo4.value == '') {
     window.alert("Por favor, preencha todos os campos.");
   } else {
-    window.location.href="../home/home-bibliotea.html";
+    window.location.href="../emailencaminhado/emailencaminhado.html";
   }
 })
    
