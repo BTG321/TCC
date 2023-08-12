@@ -130,23 +130,31 @@ details {
 }
 
 summary {
-  color: white;
+  color: var(--color2);
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 6px;
 }
 
 details[open] {
-  margin-top: 43px;
+  margin-top: 42px;
   margin-right: -45px;
   margin-left: -27.5px;
   background-color: var(--color4);
   padding: 10px;
 }
 
+details[open] > summary {
+   color: white;
+}
+
 div.header > .navigation_header > details > a {
   font-weight: normal;
   margin-top: 10px;
+}
+
+#select {
+   color: var(--color2);
 }
 
 /* imagens do jogo */
@@ -160,12 +168,12 @@ img#img-game{
 /* Configurações do carousel */
 
 .slider {
-    margin: 0 auto;
-    width: 53%;
-    height: 60%;
-    overflow: hidden;
-    margin: 10%;
-    position: absolute;
+  width: 53%;
+  height: 60%;
+  overflow: hidden;
+  position: absolute;
+  top: 29%;
+  left: 10%;
 }
 
 .slides {

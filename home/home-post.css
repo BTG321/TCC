@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -114,7 +115,7 @@ summary {
 }
 
 details[open] {
-  margin-top: 43px;
+  margin-top: 42px;
   margin-right: -45px;
   margin-left: -27.5px;
   background-color: var(--color4);
@@ -149,7 +150,7 @@ div.header > .navigation_header > details > a {
   /*logoempresa*/
   .logoempresa {
  
-    width: 8%;
+    width: 9%;
     margin-left: 7%;
     margin-top: -7%;
     border-radius: 50%;
@@ -297,35 +298,21 @@ h2 span {
    align-items: center;
 }
 
+#postagens {
+  margin: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: auto;
+  transform: translateX(6%);
+  width: 91%;
+}
+
 .postagem {
   background-color: #000000;
   color: var(--color6);
   width: 500px;
   height: 650px;
-}
-
-#post1 {
-   position: absolute;
-   top: 125%;
-   left: 11%;
-}
-
-#post2 {
-  position: absolute;
-  top: 125%;
-  left: 53%;
-}
-
-#post3 {
-  position: absolute;
-  top: 230%;
-  left: 11%;
-}
-
-#post4 {
-  position: absolute;
-  top: 230%;
-  left: 53%;
+  margin: 15px;
 }
 
 .img1 {
@@ -334,11 +321,11 @@ h2 span {
 }
 
 .img2 {
-    width: 440px;
-    height: 390px;
+    width: 87%;
+    height: 62%;
     margin-left: 30px;
     border-radius: 5px;
-    transform: translateY(-30px);
+    transform: translateY(-8%);
     margin-top: 30px;
 }
 
@@ -368,7 +355,7 @@ h2 span {
    margin-top: 1%;
     margin-left: 3%;
    position: absolute;
-    color: aliceblue;
+  color: aliceblue;
 }
 
 
