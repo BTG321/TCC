@@ -1,3 +1,5 @@
+// Configurações da Navbar
+
 var header = document.getElementById('header');
 var navigationHeader = document.getElementById('navigation_header');
 var showSidebar = false;
@@ -28,6 +30,8 @@ window.addEventListener('resize', function(event) {
     }
 });
 
+// Configurações de aparecer o que for escrito no input
+
 const input = document.getElementById("nomedev");
 const output = document.querySelector(".novousuario");
 
@@ -38,6 +42,8 @@ input.addEventListener("input", () => {
     output.innerHTML = input.value;
   }
 });
+
+// Configurações para mostrar a imagem que o input file pegar
 
 const inputFile = document.getElementById('inputFile');
 const imagePreview = document.querySelector('.imagemdobanner');
@@ -67,5 +73,13 @@ inputFile2.addEventListener('change', function() {
   }
 });
 
+// Expandir o menu
+
+var btnExp = document.querySelector('#btn-exp')
+var menuSide = document.querySelector('#menulateral')
+
+btnExp.addEventListener('click', function(){
+    menuSide.classList.toggle('expandir')
+})
 
 
