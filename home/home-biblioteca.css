@@ -148,15 +148,14 @@ div.header > .navigation_header > details > a {
   
   /*logoempresa*/
   .logoempresa {
- 
     width: 8%;
-    margin-left: 7%;
-    margin-top: -7%;
     border-radius: 50%;
     border: .5em solid #0f0f0f ;
     background-color: #0c0c0d;
     z-index: 1000;
     position: absolute;
+    top: 72%;
+    left: 9%;
   }
   /*logoempresa*/
  .nome-empresa{
@@ -179,7 +178,7 @@ div.header > .navigation_header > details > a {
     color: white;
     margin-top: 5%;
     margin-left: 25%;
-    transform: translateY(4px);
+    transform: translateY(31%);
     width: 200px;
   }
 

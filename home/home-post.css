@@ -149,15 +149,14 @@ div.header > .navigation_header > details > a {
   
   /*logoempresa*/
   .logoempresa {
- 
     width: 9%;
-    margin-left: 7%;
-    margin-top: -7%;
     border-radius: 50%;
     border: .5em solid #0f0f0f ;
     background-color: #0c0c0d;
     z-index: 1000;
     position: absolute;
+    top: 72%;
+    left: 9%;
   }
   /*logoempresa*/
  .nome-empresa{
@@ -180,7 +179,7 @@ div.header > .navigation_header > details > a {
     color: white;
     margin-top: 5%;
     margin-left: 25%;
-    transform: translateY(4px);
+    transform: translateY(31%);
     width: 200px;
   }
 
@@ -303,8 +302,8 @@ h2 span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-template-rows: auto;
-  transform: translateX(6%);
-  width: 91%;
+  transform: translateX(8%);
+  width: 90%;
 }
 
 .postagem {
