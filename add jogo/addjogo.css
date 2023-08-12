@@ -93,29 +93,6 @@ body {
   }
 }
 
-details {
-  margin-top: 6px;
-}
-
-summary {
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  margin-bottom: 6px;
-}
-
-details[open] {
-  margin-top: 55px;
-  margin-right: -45px;
-  background-color: var(--color4);
-  padding: 10px;
-}
-
-div.header > .navigation_header > details > a {
-  font-weight: normal;
-  margin-top: 10px;
-}
-
 @keyframes showSidebar {
     from {margin-left: -100vw;}
     top {margin-left: -10vw;}
