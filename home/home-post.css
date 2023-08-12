@@ -93,36 +93,13 @@ body {
   }
 }
 
-details {
-  margin-top: 6px;
-}
-
-summary {
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  margin-bottom: 6px;
-}
-
-details[open] {
-  margin-top: 55px;
-  margin-right: -45px;
-  background-color: var(--color4);
-  padding: 10px;
-}
-
-div.header > .navigation_header > details > a {
-  font-weight: normal;
-  margin-top: 10px;
-}
-
 @keyframes showSidebar {
     from {margin-left: -100vw;}
     top {margin-left: -10vw;}
 }
 
 #active {
-    color: var(--color3);
+    color: var(--color2);
 }
 
 details {
@@ -162,10 +139,11 @@ div.header > .navigation_header > details > a {
 
 .profile{
     z-index: 900;
-      background: #0f0f0f;
-      margin-top: -5px;
-      padding: 60px;
-      width: 91%;
+    background: #0f0f0f;
+    margin-top: -5px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
   }
   
   /*logoempresa*/
@@ -191,6 +169,10 @@ div.header > .navigation_header > details > a {
     color: #ffffff;
     margin-left: 22%;
     font-size: 14px;
+  }
+
+  #select {
+     color: var(--color2);
   }
  
   .biblioteca {
