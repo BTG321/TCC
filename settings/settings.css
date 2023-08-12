@@ -103,7 +103,7 @@ body {
 }
 
 #active {
-    color: var(--color3);
+    color: var(--color2);
 }
 
 details {
@@ -147,8 +147,8 @@ div.header > .navigation_header > details > a {
 }
 
 #select:hover {
-  background-color: rgb(255, 171, 16);
-  color: black;
+  background-color: var(--color2);
+  color: white;
   transition: 1s;
   box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
 }
@@ -167,8 +167,8 @@ div.header > .navigation_header > details > a {
 }
 
 #opcao2:hover {
-  background-color: rgb(255, 171, 16);
-  color: black;
+  background-color: var(--color2);
+  color: white;
   transition: 1s;
   box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
 }
@@ -187,8 +187,8 @@ div.header > .navigation_header > details > a {
 }
 
 #opcao3:hover {
-  background-color: rgb(255, 171, 16);
-  color: black;
+  background-color: var(--color2);
+  color: white;
   transition: 1s;
   box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
 }
