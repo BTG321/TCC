@@ -198,7 +198,7 @@ div.header > .navigation_header > details > a {
 #menulateral {
     background-color: black;
     width: 15%;
-    height: 100vh;
+    height: 100%;
     box-shadow: 0px 25px rgba(0, 0, 0, 0.397);
     position: fixed;
     transform: translateY(56px);
@@ -222,7 +222,6 @@ div.header > .navigation_header > details > a {
 
 .imagemdobanner {
   width: 100%;
-  height: 280px;
   border-radius: 2%;
 }
 
@@ -283,7 +282,7 @@ div.header > .navigation_header > details > a {
     border-bottom: 1px solid rgb(131, 131, 131);
     outline: none;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     width: 50%;
     letter-spacing: 2px;
 }
