@@ -52,3 +52,22 @@
     }
 }
 
+@media screen and (max-width: 800px) and (max-height: 600px){
+    #menulateral {
+        width: 20%;
+    }
+
+    .box {
+        transform: translate(80px, 50px);
+        height: 93%;
+    }
+
+    #file {
+        transform: translateY(-19px);
+    }
+
+    .submit {
+        transform: translate(177px, 114px);
+    }
+
+}
