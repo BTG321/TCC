@@ -13,8 +13,6 @@
     .imagemdaempresa {
         width: 19%;
         height: 19%;
-        position: absolute;
-        top: 41%;
     }
 
     #file {
@@ -50,3 +48,64 @@
         transform: translate(103%, 334%);
     }
 }
+
+@media screen and (max-width: 800px) and (max-height: 600px) {
+    div#menulateral > #select{
+        font-size: 100%;
+        margin-left: 0;
+    }
+
+    div#menulateral > #opcao2{
+        font-size: 100%;
+        margin-left: 0;
+    }
+
+    div#menulateral > #opcao3{
+        font-size: 90%;
+        margin-left: 0;
+    }
+
+    .box {
+        transform: translate(-13%, 1%);
+        height: 84%;
+        width: 54%;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .imagemdobanner {
+        height: 240px;
+    }
+
+    .imagemdaempresa {
+        transform: translate(36%, -46%);
+    }
+
+    .novousuario {
+        transform: translate(53%, -226%);
+    }
+
+    #campo1 {
+        transform: translate(25%, -200%);
+    }
+
+    #campo2 {
+        transform: translate(25%, -64%);
+    }
+
+    #file {
+        transform: translate(1108%, -650%);
+    }
+
+    #file2 {
+        transform: translate(310%, -420%);
+    }
+
+    .submit {
+        font-size: 78%;
+        transform: translate(92%, 23%);
+    }
+}
+
