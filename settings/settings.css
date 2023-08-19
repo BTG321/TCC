@@ -248,7 +248,8 @@ div.header > .navigation_header > details > a {
     padding: 5px;
     border-radius: 6px;
     cursor: pointer;
-    transform: translate(1400%, -760%);
+    margin-top: -51%;
+    margin-left: 92%;
 }
 
 #file2 {
@@ -258,7 +259,8 @@ div.header > .navigation_header > details > a {
     padding: 5px;
     border-radius: 6px;
     cursor: pointer;
-    transform: translate(352%, -427%);
+    margin-top: -27%;
+    margin-left: 23%;
 }
 
 .inputBox {
@@ -268,9 +270,9 @@ div.header > .navigation_header > details > a {
 .novousuario {
   display: block;
   color: white;
-  font-size: 26px;
-  transform: translate(63%, -218%);
+  font-size: 150%;
   width: 280px;
+  transform: translate(63%, -231%);
 }
 
 .inputUser {
