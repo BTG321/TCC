@@ -30,32 +30,6 @@ window.addEventListener('resize', function(event) {
     }
 });
 
-// Configurações da caixa de aviso
-
-let afirmacao = document.getElementById('btn1')
-let caixa = document.querySelector('.box')
-let aviso = document.querySelector('.aviso')
-
-afirmacao.addEventListener('click', function() {
-    aviso.style.display = 'block'
-    caixa.style.display = 'none'
-})
-
-let cancel = document.getElementById('btn4')
-
-cancel.addEventListener('click', function(){
-    if(aviso.style.display == 'block') {
-        aviso.style.display = 'none'
-        caixa.style.display = 'block'
-    }
-})
-
-let voltar = document.getElementById('btn2')
-
-voltar.addEventListener('click', function(){
-    window.location.href = "../settings/settings.html"
-})
-
 // Expandir o menu
 
 var btnExp = document.querySelector('#btn-exp')
@@ -64,7 +38,3 @@ var menuSide = document.querySelector('#menulateral')
 btnExp.addEventListener('click', function(){
     menuSide.classList.toggle('expandir')
 })
-
-
-
-

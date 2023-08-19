@@ -13,4 +13,12 @@
         font-size: 90%;
         margin-left: 0;
     }
+
+    .box {
+        transform: translateX(-18%);
+    }
+
+    .aviso {
+        transform: translateX(-18%);
+    }
 }

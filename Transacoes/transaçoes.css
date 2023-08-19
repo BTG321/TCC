@@ -131,75 +131,75 @@ details {
 /* Configurações das opções laterais */
 
 #select {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    font-size: 20px;
-    position: absolute;
-    top: 21%;
-    left: 0.1%;
-    width: 99.5%;
-    text-align: center;
-  }
-  
-  #select:hover {
-    background-color: var(--color2);
-    color: white;
-    transition: 1s;
-    box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
-  }
-  
-  #opcao2 {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    font-size: 20px;
-    position: absolute;
-    top: 38%;
-    left: 0%;
-    width: 99.5%;
-    text-align: center;
-  }
-  
-  #opcao2:hover {
-    background-color: var(--color2);
-    color: white;
-    transition: 1s;
-    box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
-  }
-  
-  #opcao3 {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    font-size: 20px;
-    position: absolute;
-    top: 56%;
-    left: 0.1%;
-    width: 99.5%;
-    text-align: center;
-  }
-  
-  #opcao3:hover {
-    background-color: var(--color2);
-    color: white;
-    transition: 1s;
-    box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
-  }
-  
-  /* Configurações do menu lateral */
-  
-  #menulateral {
-      background-color: black;
-      width: 15%;
-      height: 100vh;
-      box-shadow: 0px 25px rgba(0, 0, 0, 0.397);
-      position: fixed;
-      transform: translateY(56px);
-  }
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 21%;
+  left: 0.1%;
+  width: 99.5%;
+  text-align: center;
+}
+
+#select:hover {
+  background-color: var(--color2);
+  color: white;
+  transition: 1s;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
+}
+
+#opcao2 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 38%;
+  left: 0%;
+  width: 99.5%;
+  text-align: center;
+}
+
+#opcao2:hover {
+  background-color: var(--color2);
+  color: white;
+  transition: 1s;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
+}
+
+#opcao3 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 56%;
+  left: 0.1%;
+  width: 99.5%;
+  text-align: center;
+}
+
+#opcao3:hover {
+  background-color: var(--color2);
+  color: white;
+  transition: 1s;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
+}
+
+/* Configurações do menu lateral */
+
+#menulateral {
+    background-color: black;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    transform: translateY(56px);
+}
+
  
 /*transaçoes
 /* Sticky footer styles
@@ -292,4 +292,3 @@ table {
     top: 14%;
     left: 19%;
 }
-
