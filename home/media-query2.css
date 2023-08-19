@@ -18,7 +18,7 @@
     }
 
     .biblioteca {
-        transform: translateY(60%);
+        transform: translateY(50%);
     }
 
     #postagens {
@@ -26,30 +26,3 @@
     }
 }
 
-@media screen and (max-width: 1024px) and (max-height: 768px){
-    .logoempresa {
-        width: 120px;
-        transform: translateX(-15%);
-    }
-
-     .nome-empresa , .seguidores {
-        width: 300px;
-        transform: translate(3%, -50%);
-    }
-
-    .seguidores {
-        transform: translateX(57%);
-    }
-
-    .nome-empresa {
-        margin-bottom: -15px;
-    }
-
-    #postagens {
-        margin-left: 17%;
-    }
-
-    .biblioteca {
-        transform: translateY(50%);
-    }
-}

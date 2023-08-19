@@ -86,7 +86,7 @@ body {
     }
 
     details[open] {
-      transform: translate(-9px, -36px);
+      transform: translate(-8px, -36px);
       margin-bottom: -63px;
       text-align: center;
       padding: 0;
