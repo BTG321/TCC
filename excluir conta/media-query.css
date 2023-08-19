@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) and (max-height: 600px){
+    div#menulateral > #select{
+        font-size: 100%;
+        margin-left: 4%;
+        width: 77%;
+    }
+
+    div#menulateral > #opcao2{
+        font-size: 100%;
+        margin-left: 4%;
+        width: 77%;
+    }
+
+    div#menulateral > #opcao3{
+        font-size: 89%;
+        margin-left: 4%;
+        width: 77%;
+    }
+
+    .box {
+        transform: translateX(-22%);
+    }
+
+    .aviso {
+        transform: translateX(-22%);
+    }
+}
