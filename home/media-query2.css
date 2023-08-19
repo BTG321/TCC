@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) and (max-height: 600px){
+    .logoempresa {
+        width: 100px;
+        transform: translateX(-15%);
+    }
+
+    .nome-empresa , .seguidores {
+        width: 300px;
+        transform: translate(3%, -50%);
+    }
+
+    .seguidores {
+        transform: translateX(42%);
+    }
+
+    .nome-empresa {
+        margin-bottom: -15px;
+    }
+
+    .biblioteca {
+        transform: translateY(60%);
+    }
+
+    #postagens {
+        margin-left: 9%;
+    }
+}
