@@ -135,7 +135,7 @@ details {
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
-  font-size: 20px;
+  font-size: 120%;
   position: absolute;
   top: 21%;
   left: 0.1%;
@@ -155,7 +155,7 @@ details {
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
-  font-size: 20px;
+  font-size: 120%;
   position: absolute;
   top: 38%;
   left: 0%;
@@ -175,7 +175,7 @@ details {
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
-  font-size: 20px;
+  font-size: 120%;
   position: absolute;
   top: 56%;
   left: 0.1%;
