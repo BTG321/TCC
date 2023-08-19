@@ -88,11 +88,11 @@
     }
 
     #campo1 {
-        transform: translate(21%, -88%);
+        transform: translate(19%, -88%);
     }
 
     #campo2 {
-        transform: translate(21%, 100%);
+        transform: translate(19%, 120%);
     }
 
     #file {
