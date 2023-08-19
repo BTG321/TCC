@@ -16,23 +16,26 @@
     }
 
     #file {
-        transform: translate(50%, 85%);
+        transform: translate(50%, 8%);
     }
 
     #file2 {
-        transform: translate(4%, -57%);
+        transform: translate(26%, 7%);
     }
 
     .novousuario {
         font-size: 32px;
+        transform: translate(90%, -256%);
     }
 
     #campo1 {
-        transform: translate(24%, 272%);
+        transform: translate(33%, 26%);
+        width: 700px;
     }
 
     #campo2 {
-        transform: translate(24%, 439%);
+        transform: translate(33%, 464%);
+        width: 700px;
     }
 
     #campo1 > .labelInput, #campo2 > .labelInput{
@@ -45,7 +48,7 @@
 
     .submit {
         width: 32%;
-        transform: translate(103%, 334%);
+        transform: translate(-1%, 150%);
     }
 }
 
