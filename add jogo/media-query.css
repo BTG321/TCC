@@ -35,3 +35,19 @@
         transform: translate(-14%, -50%);
     }
 }
+
+@media screen and (max-width: 1024px) and (max-height: 768px){
+    #file {
+        transform: translate(-35%, -15%);
+    }
+
+    .navigation-auto {
+        position: absolute;
+        top: -19%;
+    }
+
+    .manual-navigation {
+        position: absolute;
+        top: 68%;
+    }
+}
