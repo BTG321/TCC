@@ -1,0 +1,37 @@
+@media screen and (max-width: 800px) and (max-height: 600px){
+    .titulo {
+        transform: translateX(-10%)
+    }
+
+    .slider {
+        position: absolute;
+        top: 30%;
+        left: 6%;
+    }
+
+    .navigation-auto {
+        position: absolute;
+        top: -43%;
+    }
+
+    .manual-navigation {
+        position: absolute;
+        top: 68%;
+    }
+
+    #file {
+        transform: translate(-133%, 10%);
+    }
+
+    .atributos {
+        transform: translateX(-9%);
+    }
+
+    .user-box input {
+        font-size: 20px;
+    }
+
+    .a {
+        transform: translate(-14%, -50%);
+    }
+}

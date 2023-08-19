@@ -45,3 +45,4 @@ inputFile.addEventListener('change', function() {
     reader.readAsDataURL(file);
   }
 });
+
