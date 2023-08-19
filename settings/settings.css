@@ -268,11 +268,12 @@ div.header > .navigation_header > details > a {
 }
 
 .novousuario {
+  position: absolute;
   display: block;
   color: white;
   font-size: 150%;
   width: 280px;
-  transform: translate(63%, -231%);
+  transform: translate(60%, -240%);
 }
 
 .inputUser {
@@ -297,11 +298,11 @@ div.header > .navigation_header > details > a {
 }
 
 #campo1 {
-    transform: translate(25%, -194%);
+    transform: translate(25%, -83%);
 }
 
 #campo2 {
-    transform: translate(25%, -44%);
+    transform: translate(25%, 40%);
 }
 
 .inputUser:focus ~ .labelInput,
@@ -310,6 +311,7 @@ div.header > .navigation_header > details > a {
     font-size: 12px;
     color: #960B9B;
 }
+
 
 .submit {
   position: relative;
@@ -321,7 +323,7 @@ div.header > .navigation_header > details > a {
   padding: 15px 20px;
   padding-left: 27px;
   overflow: hidden;
-  transform: translate(111%, 30%);
+  transform: translate(111%, 102%);
 }
 
 .submit:hover {
