@@ -298,11 +298,15 @@ div.header > .navigation_header > details > a {
 }
 
 #campo1 {
-    transform: translate(25%, -83%);
+    position: absolute;
+    width: 500px;
+    transform: translate(28%, -68%);
 }
 
 #campo2 {
-    transform: translate(25%, 40%);
+    position: absolute;
+    width: 500px;
+    transform: translate(28%, 160%);
 }
 
 .inputUser:focus ~ .labelInput,
@@ -323,7 +327,8 @@ div.header > .navigation_header > details > a {
   padding: 15px 20px;
   padding-left: 27px;
   overflow: hidden;
-  transform: translate(111%, 102%);
+  margin-top: 19%;
+  margin-left: 35%;
 }
 
 .submit:hover {
