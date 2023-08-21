@@ -27,3 +27,11 @@
     }
 }
 
+@media screen and (min-width: 1400px){
+    .post {
+        transform: translateY(30%);
+    }
+
+}
+
+
