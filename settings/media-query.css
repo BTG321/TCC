@@ -29,12 +29,12 @@
     }
 
     #campo1 {
-        transform: translate(33%, 26%);
+        transform: translate(30%, -134%);
         width: 700px;
     }
 
     #campo2 {
-        transform: translate(33%, 464%);
+        transform: translate(30%, 177%);
         width: 700px;
     }
 
@@ -48,7 +48,7 @@
 
     .submit {
         width: 32%;
-        transform: translate(-1%, 150%);
+        transform: translate(-4%, -64%);
     }
 }
 
