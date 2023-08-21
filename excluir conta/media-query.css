@@ -24,5 +24,16 @@
 }
 
 @media screen and (min-width: 1400px){
-    
+    div#menulateral > #select{
+        width: 90%;
+    }
+
+    div#menulateral > #opcao2{
+        width: 90%;
+    }
+
+    div#menulateral > #opcao3{
+        width: 90%;
+    }
+
 }
