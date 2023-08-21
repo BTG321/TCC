@@ -32,6 +32,9 @@
         transform: translateY(30%);
     }
 
+    .seguidores {
+        margin-left: -1%;
+    }
 }
 
 
