@@ -36,3 +36,15 @@
     }
 }
 
+@media screen and (min-width: 1400px){
+    .navigation-auto {
+        position: absolute;
+        top: 31%;
+    }
+
+    .manual-navigation {
+        position: absolute;
+        top: 100%;
+    }
+}
+
