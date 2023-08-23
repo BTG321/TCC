@@ -30,12 +30,12 @@
 
     #campo1 {
         transform: translate(30%, -134%);
-        width: 700px;
+        width: 89%;
     }
 
     #campo2 {
         transform: translate(30%, 177%);
-        width: 700px;
+        width: 89%;
     }
 
     #campo1 > .labelInput, #campo2 > .labelInput{
@@ -48,7 +48,9 @@
 
     .submit {
         width: 32%;
-        transform: translate(-4%, -64%);
+        position: absolute;
+        top: 69%;
+        left: -1%;
     }
 }
 
@@ -172,4 +174,5 @@
         display: none;
     }
 }
+
 
