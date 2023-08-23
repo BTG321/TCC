@@ -180,6 +180,21 @@ summary {
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }
+
+  #icone-editar {
+    display: none;
+    color: white;
+  }
+  
+  #icone-transacoes {
+    display: none;
+    color: white;
+  }
+  
+  #icone-excluir {
+    display: none;
+    color: white;
+  }
   
   /* Configurações do menu lateral */
   

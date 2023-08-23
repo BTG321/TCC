@@ -71,7 +71,7 @@
     .box {
         height: 84%;
         width: 54%;
-        transform: translate(-11%, -1%);
+        transform: translate(-17%, -1%);
     }
 
     .banner {
@@ -110,6 +110,66 @@
         font-size: 78%;
         margin-top: 20%;
         margin-left: 33%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #menulateral {
+        width: 10%;
+    }
+
+    #icone-editar {
+        display: block;
+        width: 100%;
+        height: 8%;
+        padding: 10px;
+        position: absolute;
+        top: 18%;
+    }
+
+   #icone-editar:hover {
+        background-color: #3F3498;
+        color: white;
+    } 
+
+    #icone-transacoes {
+        display: block;
+        width: 100%;
+        height: 8%;
+        padding: 10px;
+        position: absolute;
+        top: 32%;
+    }
+
+    #icone-transacoes:hover {
+        background-color: #3F3498;
+        color: white;
+    }
+
+    #icone-excluir {
+        display: block;
+        width: 100%;
+        height: 8%;
+        padding: 10px;
+        position: absolute;
+        top: 48%;
+    }
+
+    #icone-excluir:hover {
+        background-color: #3F3498;
+        color: white;
+    }
+
+    div#menulateral > #select{
+        display: none;
+    }
+
+    div#menulateral > #opcao2{
+        display: none;
+    }
+
+    div#menulateral > #opcao3{
+        display: none;
     }
 }
 

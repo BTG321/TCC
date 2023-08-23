@@ -37,3 +37,66 @@
     }
 
 }
+
+@media screen and (max-width: 800px){
+    #menulateral {
+        width: 10%;
+    }
+
+    #icone-editar {
+        display: block;
+        width: 79%;
+        height: 5%;
+        padding: 10px;
+        position: absolute;
+        top: 18%;
+        left: -5%;
+    }
+
+   #icone-editar:hover {
+        background-color: #3F3498;
+        color: white;
+    } 
+
+    #icone-transacoes {
+        display: block;
+        width: 79%;
+        height: 5%;
+        padding: 10px;
+        position: absolute;
+        top: 32%;
+        left: -5%;
+    }
+
+    #icone-transacoes:hover {
+        background-color: #3F3498;
+        color: white;
+    }
+
+    #icone-excluir {
+        display: block;
+        width: 79%;
+        height: 5%;
+        padding: 10px;
+        position: absolute;
+        top: 48%;
+        left: -5%;
+    }
+
+    #icone-excluir:hover {
+        background-color: #3F3498;
+        color: white;
+    }
+
+    div#menulateral > #select{
+        display: none;
+    }
+
+    div#menulateral > #opcao2{
+        display: none;
+    }
+
+    div#menulateral > #opcao3{
+        display: none;
+    }
+}
