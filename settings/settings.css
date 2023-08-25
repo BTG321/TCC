@@ -193,21 +193,6 @@ div.header > .navigation_header > details > a {
   box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
 }
 
-#icone-editar {
-  display: none;
-  color: white;
-}
-
-#icone-transacoes {
-  display: none;
-  color: white;
-}
-
-#icone-excluir {
-  display: none;
-  color: white;
-}
-
 /* Configurações do menu lateral */
 
 #menulateral {
@@ -225,13 +210,13 @@ div.header > .navigation_header > details > a {
   top: 13%;
   left: 36%;
   background-color: rgba(0, 0, 0, 0.674);
-  height: 35rem;
+  height: 85vh;
   border-radius: 2%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.407);
 }
 
 .banner {
-   width: 100%;
+   width: 39vw;
 }
 
 .imagemdobanner {
@@ -287,7 +272,7 @@ div.header > .navigation_header > details > a {
   display: block;
   color: white;
   font-size: 150%;
-  width: 58%;
+  width: 280px;
   transform: translate(60%, -240%);
 }
 

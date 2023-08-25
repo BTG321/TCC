@@ -1,15 +1,11 @@
 let submit = document.querySelector('.a')
-let campo1 = document.getElementById("campo1")
-let campo2 = document.getElementById("campo2")
-let campo3 = document.getElementById("campo3")
-let campo4 = document.getElementById("campo4")
+let user = document.getElementById('campo1')
+let senha = document.getElementById('campo2')
+let email = document.getElementById('campo3')
+let telefone = document.getElementById('campo4')
 
 submit.addEventListener('click', function(){
-  if (campo1.value == '' || campo2.value == '' || campo3.value == '' || campo4.value == '') {
-    window.alert("Por favor, preencha todos os campos.");
-  } else {
-    window.location.href="../home/home-bibliotea.html";
-  }
+    window.location.href="../emailencaminhado/emailencaminhado.html";
 })
    
    
