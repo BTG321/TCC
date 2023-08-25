@@ -1,102 +1,27 @@
 @media screen and (max-width: 800px) and (max-height: 600px){
     div#menulateral > #select{
         font-size: 100%;
-        margin-left: 0;
+        margin-left: 4%;
+        width: 77%;
     }
 
     div#menulateral > #opcao2{
         font-size: 100%;
-        margin-left: 0;
+        margin-left: 4%;
+        width: 77%;
     }
 
     div#menulateral > #opcao3{
-        font-size: 90%;
-        margin-left: 0;
+        font-size: 89%;
+        margin-left: 4%;
+        width: 77%;
     }
 
     .box {
-        transform: translateX(-23%);
+        transform: translateX(-22%);
     }
 
     .aviso {
-        transform: translateX(-23%);
-    }
-}
-
-@media screen and (min-width: 1400px){
-    div#menulateral > #select{
-        width: 90%;
-    }
-
-    div#menulateral > #opcao2{
-        width: 90%;
-    }
-
-    div#menulateral > #opcao3{
-        width: 90%;
-    }
-
-}
-
-@media screen and (max-width: 800px){
-    #menulateral {
-        width: 10%;
-    }
-
-    #icone-editar {
-        display: block;
-        width: 79%;
-        height: 5%;
-        padding: 10px;
-        position: absolute;
-        top: 18%;
-        left: -5%;
-    }
-
-   #icone-editar:hover {
-        background-color: #3F3498;
-        color: white;
-    } 
-
-    #icone-transacoes {
-        display: block;
-        width: 79%;
-        height: 5%;
-        padding: 10px;
-        position: absolute;
-        top: 32%;
-        left: -5%;
-    }
-
-    #icone-transacoes:hover {
-        background-color: #3F3498;
-        color: white;
-    }
-
-    #icone-excluir {
-        display: block;
-        width: 79%;
-        height: 5%;
-        padding: 10px;
-        position: absolute;
-        top: 48%;
-        left: -5%;
-    }
-
-    #icone-excluir:hover {
-        background-color: #3F3498;
-        color: white;
-    }
-
-    div#menulateral > #select{
-        display: none;
-    }
-
-    div#menulateral > #opcao2{
-        display: none;
-    }
-
-    div#menulateral > #opcao3{
-        display: none;
+        transform: translateX(-22%);
     }
 }

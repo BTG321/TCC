@@ -180,21 +180,6 @@ summary {
     transition: 1s;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }
-
-  #icone-editar {
-    display: none;
-    color: white;
-  }
-  
-  #icone-transacoes {
-    display: none;
-    color: white;
-  }
-  
-  #icone-excluir {
-    display: none;
-    color: white;
-  }
   
   /* Configurações do menu lateral */
   
@@ -210,7 +195,7 @@ summary {
 div.box {
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 37%;
     width: 500px;
     padding: 40px;
     background: rgba(0,0,0,.5);
@@ -222,7 +207,7 @@ div.box {
 div.aviso {
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 37%;
     background-color:  rgb(255, 166, 0);
     text-align: center;
     display: none;
