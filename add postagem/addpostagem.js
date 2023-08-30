@@ -31,7 +31,7 @@ window.addEventListener('resize', function(event) {
 // Configurações para mostrar a imagem que o input file pegar
 
 const inputFile = document.getElementById('inputFile');
-const imagePreview = document.querySelector('.postagem');
+const imagePreview = document.querySelector('#imagem-post');
 
 inputFile.addEventListener('change', function() {
   const file = this.files[0];

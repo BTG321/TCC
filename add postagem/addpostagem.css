@@ -134,17 +134,17 @@ div.header > .navigation_header > details > a {
    color: var(--color2);
 }
 
-/* Configurações da postagem */
+/* Configurações do fundo da postagem */
 
-div.imgpost {
-    width: 425px;
-    position: absolute;
-    top: 20%;
-    left: 19%;
-}
-
-div.imgpost > img{
-    width: 425px;
+.box {
+   background-color: white;
+   width: 60%;
+   height: 70%;
+   border-radius: 15px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
 }
 
 /* Configurações do formulário */
@@ -155,168 +155,168 @@ div.imgpost > img{
  
  #file {
      position: absolute;
-     top: 21%;
-     left: 47%;
+     top: 9%;
+     left: 52.7%;
      background-color: blue;
      color: white;
      padding: 5px;
      padding-bottom: 0px;
      border-radius: 6px;
      cursor: pointer;
- }
+     z-index: 10;
+}
 
- .descricao {
-    position: absolute;
-    top: 26%;
-    left: 55%;
-    height: 300px;
- }
+#descricao {
+  font-size: 17px;
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 20%;
+  left: 62%;
+}
 
- .user-box {
-    position: relative;
-  }
-  
-   .user-box textarea {
-    padding: 12px 0;
-    font-size: 25px;
-    color: rgb(255, 254, 254);
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 2px solid rgb(131, 131, 131);
-    outline: none;
-    background: transparent;
-  }
+/* Configurações da postagem */
 
-  .user-box .texto {
-    position: absolute;
-    top:0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    pointer-events: none;
-    transition: .5s;
-  }
+#icone-voltar {
+   color: black;
+   position: absolute;
+   top: 1.4%;
+   left: 1%;
+}
 
-  .user-box textarea:focus ~ .texto,
-  .user-box textarea:valid ~ .texto {
-   top: -20px;
-   left: 0;
-   color: rgb(175, 3, 175);
-   font-size: 12px;
- }
+#icone-voltar:hover {
+  color: var(--color2);
+}
+
+#perfil {
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   top: 3%;
+   left: 58.5%;
+}
+
+#imagem-post {
+  width: 34vw;
+  height: 65vh;
+  border-bottom-left-radius: 15px;
+  position: absolute;
+  top: 7.2%;
+}
 
 /* Configurações do botão de submit */
 
 .a {
-    position: relative;
-    display: inline-block;
-    padding: 15px 20px;
-    color: #dd32c1;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 34%;
-    letter-spacing: 10px;
-    text-decoration: none;
-    background-color: #0000002d;
-    border: none;
-    margin-left: 64%;
-    cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  padding-right: 10px;
+  color: #dd32c1;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 10px;
+  text-decoration: none;
+  background-color: black;
+  border: none;
+  margin-left: 25%;
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  left: 46%;
 }
-  
+
 .a:hover {
-    background: #960b9b;
-    color: rgb(185, 182, 185);
-    border-radius: 5px;
-    box-shadow: 0 0 5px #96059b,
-                0 0 25px #96059b,
-                0 0 50px #96059b,
-                0 0 100px #96059b;
-  }
-  
- .a span {
-    position: absolute;
-    display: block;
-  }
-  
- .a span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #ca17ca);
-    animation: btn-anim1 1s linear infinite;
-  }
-  
-  @keyframes btn-anim1 {
-    0% {
-      left: -100%;
-    }
-    50%,100% {
-      left: 100%;
-    }
-  }
-  
- .a span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent,#ca17ca);
-    animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s
-  }
-  
-  @keyframes btn-anim2 {
-    0% {
-      top: -100%;
-    }
-    50%,100% {
-      top: 100%;
-    }
-  }
-  
-.a span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #ca17ca);
-    animation: btn-anim3 1s linear infinite;
-    animation-delay: .5s
-  }
-  
-  @keyframes btn-anim3 {
-    0% {
-      right: -100%;
-    }
-    50%,100% {
-      right: 100%;
-    }
-  }
-  
-  .a span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent,#ca17ca);
-    animation: btn-anim4 1s linear infinite;
-    animation-delay: .75s
-  }
-  
-  @keyframes btn-anim4 {
-    0% {
-      bottom: -100%;
-    }
-    50%,100% {
-      bottom: 100%;
-    }
-  
+  background: #960b9b;
+  color: rgb(185, 182, 185);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #96059b,
+              0 0 25px #96059b,
+              0 0 50px #96059b,
+              0 0 100px #96059b;
 }
 
+.a span {
+  position: absolute;
+  display: block;
+}
 
+.a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ca17ca);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent,#ca17ca);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #ca17ca);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent,#ca17ca);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+
+}
 
