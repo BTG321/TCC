@@ -95,17 +95,19 @@ body {
     color: var(--color2);
 }
 
-
-summary {
+details {
+    margin-top: 6px;
+  }
+  
+  summary {
     color: white;
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 6px;
-    margin-top: 5px;
   }
   
   details[open] {
-    margin-top: 36px;
+    margin-top: 55px;
     margin-right: -45px;
     margin-left: -27.5px;
     background-color: var(--color4);
@@ -114,6 +116,7 @@ summary {
   
   div.header > .navigation_header > details > a {
     font-weight: normal;
+    margin-top: 10px;
   }
   
 /* Configurações das opções laterais */
@@ -122,14 +125,13 @@ summary {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 120%;
     position: absolute;
     top: 21%;
-    left: -4%;
-    width: 87%;
+    left: 0.1%;
+    width: 99.5%;
     text-align: center;
-    margin-left: 3%;
   }
   
   #select:hover {
@@ -143,14 +145,13 @@ summary {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 120%;
     position: absolute;
     top: 38%;
-    left: -4%;
-    width: 87%;
+    left: 0%;
+    width: 99.5%;
     text-align: center;
-    margin-left: 3%;
   }
   
   #opcao2:hover {
@@ -164,14 +165,13 @@ summary {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 120%;
     position: absolute;
     top: 56%;
-    left: -4%;
-    width: 87%;
+    left: 0.1%;
+    width: 99.5%;
     text-align: center;
-    margin-left: 3%;
   }
   
   #opcao3:hover {
@@ -181,13 +181,27 @@ summary {
     box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }
   
+  #icone-editar {
+    display: none;
+    color: white;
+  }
+  
+  #icone-transacoes {
+    display: none;
+    color: white;
+  }
+  
+  #icone-excluir {
+    display: none;
+    color: white;
+  }
+  
   /* Configurações do menu lateral */
   
   #menulateral {
       background-color: black;
       width: 15%;
-      height: 100vh;
-      box-shadow: 0px 25px rgba(0, 0, 0, 0.397);
+      height: 100%;
       position: fixed;
   }
 /* Configurações de div */
@@ -195,7 +209,7 @@ summary {
 div.box {
     position: absolute;
     top: 40%;
-    left: 37%;
+    left: 40%;
     width: 500px;
     padding: 40px;
     background: rgba(0,0,0,.5);
@@ -207,7 +221,7 @@ div.box {
 div.aviso {
     position: absolute;
     top: 40%;
-    left: 37%;
+    left: 40%;
     background-color:  rgb(255, 166, 0);
     text-align: center;
     display: none;
