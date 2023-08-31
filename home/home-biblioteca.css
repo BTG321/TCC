@@ -299,6 +299,7 @@ h2 span {
     align-items: center;
     flex-flow: row wrap;
     text-align: center;
+    cursor: pointer;
 }
   
 .cards,
