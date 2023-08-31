@@ -136,6 +136,16 @@ div.header > .navigation_header > details > a {
 
 /* Configurações do fundo da postagem */
 
+.fundo {
+   background: rgba(0, 0, 0, .5);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 100;
+}
+
 .box {
    background-color: white;
    width: 60%;
@@ -155,8 +165,8 @@ div.header > .navigation_header > details > a {
  
  #file {
      position: absolute;
-     top: 9%;
-     left: 52.7%;
+     top: 1.1%;
+     left: 53%;
      background-color: blue;
      color: white;
      padding: 5px;
@@ -170,6 +180,8 @@ div.header > .navigation_header > details > a {
   font-size: 17px;
   border: none;
   background: transparent;
+  width: 20vw;
+  height: 43vh;
   position: absolute;
   top: 20%;
   left: 62%;
@@ -178,10 +190,10 @@ div.header > .navigation_header > details > a {
 /* Configurações da postagem */
 
 #icone-voltar {
-   color: black;
-   position: absolute;
-   top: 1.4%;
-   left: 1%;
+  color: white;
+  position: absolute;
+  top: 7%;
+  left: 97%;
 }
 
 #icone-voltar:hover {
@@ -196,12 +208,18 @@ div.header > .navigation_header > details > a {
    left: 58.5%;
 }
 
+.username {
+  position: absolute;
+  top: 6%;
+  left: 64%;
+}
+
 #imagem-post {
   width: 34vw;
-  height: 65vh;
+  height: 70vh;
   border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
   position: absolute;
-  top: 7.2%;
 }
 
 /* Configurações do botão de submit */
