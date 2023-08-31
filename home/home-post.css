@@ -24,7 +24,6 @@ body {
 
 .img_logo_header {
     width: 50px;
-    /*transform: translateY(28px);*/
 }
 
 .logo_header {
@@ -302,7 +301,7 @@ h2 span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-template-rows: auto;
-  transform: translateX(8%);
+  transform: translateX(7%);
   width: 90%;
 }
 
