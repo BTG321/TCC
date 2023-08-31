@@ -226,8 +226,9 @@ div.aviso {
     background-color:  rgb(255, 166, 0);
     text-align: center;
     display: none;
-    width: 500px;
-    padding: 40px;
+    width: 580px;
+    height: 250px;
+    padding: 50px;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -274,5 +275,7 @@ h1#titulo1 {
 #btn3 , #btn4 {
     padding: 10px;
     margin-top: 30px;
+    margin-right: 10px;
+    border: none;
     cursor: pointer;
 }
