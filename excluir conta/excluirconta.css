@@ -210,8 +210,9 @@ div.box {
     position: absolute;
     top: 40%;
     left: 40%;
-    width: 500px;
-    padding: 40px;
+    width: 580px;
+    height: 250px;
+    padding: 50px;
     background: rgba(0,0,0,.5);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -249,8 +250,9 @@ h1#titulo1 {
 }
 
 #btn1 {
-    transform: translateX(90px);
     width: 100px;
+    position: absolute;
+    left: 28%;
 }
 
 #btn1:hover {
@@ -260,7 +262,8 @@ h1#titulo1 {
 
 #btn2 {
     width: 100px;
-    transform: translateX(120px);
+    position: absolute;
+    left: 53%;
 }
 
 #btn2:hover {
