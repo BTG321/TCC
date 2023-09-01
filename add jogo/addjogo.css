@@ -128,6 +128,7 @@ details[open] > summary {
 div.header > .navigation_header > details > a {
   font-weight: normal;
   margin-top: 10px;
+  padding: 0;
 }
 
 #select {

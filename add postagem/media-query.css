@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 800px) and (max-height: 600px){
+    #icone-voltar {
+        transform: translate(-30%, -80%);
+    }
+
+    .box {
+        width: 85%;
+    }
+
+    #imagem-post {
+        width: 57%;
+    }
+
+    #file {
+        transform: translateX(-15%);
+    }
+
+    .username {
+        transform: translateX(10%);
+    }
+
+    #descricao {
+        width: 34%;
+    }
+
+    .a {
+        transform: translate(-8%, -12%);
+    }
+}
