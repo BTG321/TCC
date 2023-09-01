@@ -129,8 +129,7 @@ details {
     font-size: 120%;
     position: absolute;
     top: 21%;
-    left: 0.1%;
-    width: 99.5%;
+    width: 100%;
     text-align: center;
   }
   
@@ -149,8 +148,7 @@ details {
     font-size: 120%;
     position: absolute;
     top: 38%;
-    left: 0%;
-    width: 99.5%;
+    width: 100%;
     text-align: center;
   }
   
@@ -169,9 +167,12 @@ details {
     font-size: 120%;
     position: absolute;
     top: 56%;
-    left: 0.1%;
-    width: 99.5%;
+    width: 100%;
     text-align: center;
+    background-color: var(--color2);
+    color: white;
+    transition: 1s;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }
   
   #opcao3:hover {
