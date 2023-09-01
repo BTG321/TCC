@@ -208,8 +208,8 @@ details {
 
 div.box {
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 34%;
+    left: 35%;
     width: 580px;
     height: 250px;
     padding: 50px;
@@ -221,8 +221,8 @@ div.box {
 
 div.aviso {
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 34%;
+    left: 35%;
     background-color:  rgb(255, 166, 0);
     text-align: center;
     display: none;
