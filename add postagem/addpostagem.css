@@ -165,8 +165,8 @@ div.header > .navigation_header > details > a {
  
  #file {
      position: absolute;
-     top: 1.1%;
-     left: 53%;
+     top: 2%;
+     left: 51%;
      background-color: blue;
      color: white;
      padding: 5px;
@@ -180,12 +180,13 @@ div.header > .navigation_header > details > a {
   font-size: 17px;
   border: none;
   background: transparent;
+  resize: none;
   width: 20vw;
   height: 43vh;
   padding: 4px;
   position: absolute;
-  top: 17%;
-  left: 61.5%;
+  top: 19%;
+  left: 61%;
 }
 
 /* Configurações da postagem */
@@ -211,8 +212,8 @@ div.header > .navigation_header > details > a {
 
 .username {
   position: absolute;
-  top: 6%;
-  left: 64%;
+  top: 7%;
+  left: 66%;
 }
 
 #imagem-post {
@@ -226,26 +227,24 @@ div.header > .navigation_header > details > a {
 /* Configurações do botão de submit */
 
 .a {
-  position: relative;
   display: inline-block;
-  padding: 15px 20px;
+  padding: 15px 18px;
   padding-right: 10px;
   color: #dd32c1;
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: 10px;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
   transition: .5s;
   margin-top: 40px;
-  letter-spacing: 10px;
-  text-decoration: none;
+  margin-left: 25%;
   background-color: black;
   border: none;
-  margin-left: 25%;
   cursor: pointer;
   position: absolute;
-  top: 80%;
-  left: 46%;
+  top: 78%;
+  left: 45%;
 }
 
 .a:hover {
