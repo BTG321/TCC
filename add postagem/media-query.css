@@ -29,3 +29,13 @@
         transform: translate(-8%, -12%);
     }
 }
+
+@media screen and (min-width: 1400px){
+    .username {
+        transform: translate(-20%, -34%);
+    }
+
+    .a {
+        transform: translate(13%, 46%);
+    }
+}
