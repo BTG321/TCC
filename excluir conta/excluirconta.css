@@ -172,6 +172,9 @@ details {
     left: 0.1%;
     width: 99.5%;
     text-align: center;
+    background-color: var(--color2);
+    color: white;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.993);
   }
   
   #opcao3:hover {
